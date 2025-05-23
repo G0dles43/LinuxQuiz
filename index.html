@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz Linux</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="range-slider">
+        <label>Zakres pytań ID: <span id="range-label">1 - 344</span></label>
+        <div class="dual-slider">
+          <input type="range" id="range-min" min="1" max="344" value="1" />
+          <input type="range" id="range-max" min="1" max="344" value="344" />
+        </div>
+      </div>
+
+      <div>
+        <strong>Wybranych pytań: <span id="selected-count">0</span></strong>
+      </div>
+
+      <button id="start-btn" type="button">
+        <i class="fas fa-play"></i> Rozpocznij quiz
+      </button>
+
+      <div id="quiz-box" style="display: none">
+        <div class="stats">
+          <div>
+            Pytanie <span id="current-question">1</span> z
+            <span id="total-questions">10</span>
+          </div>
+          <div>Czas: <span id="timer">00:00</span></div>
+        </div>
+
+        <div class="progress">
+          <div class="progress-bar" style="width: 0%"></div>
+        </div>
+
+        <div id="question-box">
+          <div class="question-header">
+            <h3 id="question"></h3>
+            <span class="badge" id="question-type"></span>
+          </div>
+          <form id="answers"></form>
+        </div>
+
+        <button id="next-btn" type="button" style="margin-top: 15px;">
+          <i class="fas fa-arrow-right"></i> Następne pytanie
+        </button>
+      </div>
+
+      <div id="result-box" style="display: none">
+        <h2>Podsumowanie</h2>
+        <p>
+          <strong>Poprawnych odpowiedzi:</strong> <span id="final-score"></span>
+          <p><strong>Czas trwania:</strong> <span id="final-time"></span></p>
+        </p>
+        <div class="legend">
+          <h4>Legenda:</h4>
+          <span class="badge correct">Poprawna odpowiedź</span>
+          <span class="badge incorrect">Błędna odpowiedź</span>
+          <span class="badge missed">Brakująca poprawna</span>
+        </div>
+        <div id="summary"></div>
+        <button id="restart-btn" type="button" style="margin-top: 20px;">
+          <i class="fas fa-redo"></i> Rozpocznij nowy quiz
+        </button>
+      </div>
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>
