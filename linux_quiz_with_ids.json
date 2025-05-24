@@ -139,7 +139,12 @@
   },
   {
     "question": "Podaj polecenie zmieniające bieżący tryb pracy na lpic.target.",
-    "answers": [],
+    "answers": [
+      {
+        "text": "systemctl isolate lpic.target",
+        "correct": true
+      }
+    ],
     "type": "open",
     "id": 7
   },

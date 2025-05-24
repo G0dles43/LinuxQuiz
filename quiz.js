@@ -83,18 +83,23 @@ function showQuestion() {
 
 function checkAnswer() {
   const q = selectedQuestions[currentQuestion];
-  let isCorrect = false,
-    selected = [];
+  let isCorrect = false;
+  let selected = [];
+  let input = "";
 
   if (q.type === "open") {
-    const userInput = document
-      .querySelector(".open-answer")
-      .value.trim()
-      .toLowerCase();
+    const inputElem = document.querySelector(".open-answer");
+    input = inputElem ? inputElem.value.trim() : "";
+    const userInput = input.toLowerCase();
     const correct = q.answers
       .filter((a) => a.correct)
       .map((a) => a.text.toLowerCase());
     isCorrect = correct.includes(userInput);
+
+    userAnswers[currentQuestion] = {
+      isCorrect,
+      input,
+    };
   } else {
     selected = Array.from(document.querySelectorAll("input:checked")).map((i) =>
       parseInt(i.value)
@@ -105,10 +110,14 @@ function checkAnswer() {
     isCorrect =
       selected.length === correctIndexes.length &&
       selected.every((i) => correctIndexes.includes(i));
+
+    userAnswers[currentQuestion] = {
+      isCorrect,
+      selected,
+    };
   }
 
   if (isCorrect) score++;
-  userAnswers[currentQuestion] = { isCorrect, selected };
 }
 
 function showResults() {
@@ -127,21 +136,45 @@ function showResults() {
   const summary = document.getElementById("summary");
   summary.innerHTML = selectedQuestions
     .map((q, i) => {
-      const selected = userAnswers[i]?.selected || [];
-      return `
-      <div class="question-result">
-        <h4>${q.question}</h4>
-        ${q.answers
-          .map((a, j) => {
-            let cls = "";
-            if (a.correct && selected.includes(j)) cls = "correct";
-            else if (a.correct) cls = "missed";
-            else if (selected.includes(j)) cls = "incorrect";
-            return `<div class="answer ${cls}">${a.text}</div>`;
-          })
-          .join("")}
-      </div>
-    `;
+      const ua = userAnswers[i];
+      const correctAnswers = q.answers
+        .filter((a) => a.correct)
+        .map((a) => a.text);
+
+      if (q.type === "open") {
+        const userInput = ua?.input?.trim() || "(brak)";
+        return `
+        <div class="question-result">
+          <h4>${q.question}</h4>
+          <div class="answer ${ua?.isCorrect ? "correct" : "incorrect"}">
+            Twoja odpowiedź: ${userInput}
+          </div>
+          ${
+            ua?.isCorrect
+              ? ""
+              : `<div class="answer missed">Poprawna odpowiedź: ${correctAnswers.join(
+                  " / "
+                )}</div>`
+          }
+        </div>
+      `;
+      } else {
+        const selected = ua?.selected || [];
+        return `
+        <div class="question-result">
+          <h4>${q.question}</h4>
+          ${q.answers
+            .map((a, j) => {
+              let cls = "";
+              if (a.correct && selected.includes(j)) cls = "correct";
+              else if (a.correct) cls = "missed";
+              else if (selected.includes(j)) cls = "incorrect";
+              return `<div class="answer ${cls}">${a.text}</div>`;
+            })
+            .join("")}
+        </div>
+      `;
+      }
     })
     .join("");
 }
