@@ -287,7 +287,7 @@
     "id": 13
   },
   {
-    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog",
+    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog cron.warn             student dane spełniające powyższy warunek będą:",
     "answers": [
       {
         "text": "",
@@ -304,7 +304,7 @@
     "id": 15
   },
   {
-    "question": "dane spełniające powyższy warunek będą:",
+    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog (cron.warn             student) dane spełniające powyższy warunek będą:",
     "answers": [
       {
         "text": "wyświetlane na konsoli wszystkich użytkowników należących do grupy student",
@@ -775,7 +775,7 @@
     "id": 36
   },
   {
-    "question": "Aplikacja:",
+    "question": "Aplikacja: -rwxr-sr-x 1 student lpic 68208 lip 15  2021 /usr/bin/test została uruchomiona przez użytkownika john. Na prawach jakiego użytkownika będzie ona działała?",
     "answers": [
       {
         "text": "john",
@@ -838,7 +838,7 @@
     "id": 40
   },
   {
-    "question": "dane spełniające powyższy warunek będą:",
+    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog (cron.warn             @tester) dane spełniające powyższy warunek będą:",
     "answers": [
       {
         "text": "wyświetlane na konsoli wszystkich użytkowników należących do grupy tester",
@@ -908,7 +908,12 @@
   },
   {
     "question": "Zamień na postać symboliczną prawa do pliku 640.",
-    "answers": [],
+    "answers": [
+      {
+        "text": "rw-r-----",
+        "correct": true
+      }
+    ],
     "type": "open",
     "id": 44
   },
@@ -999,7 +1004,7 @@
     "id": 49
   },
   {
-    "question": "dane spełniające powyższy warunek będą:",
+    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog (cron.warn             @tester) dane spełniające powyższy warunek będą:",
     "answers": [
       {
         "text": "przekierowane na urządzenie o nazwie tester z wykorzystaniem protokołu UDP",
@@ -1368,7 +1373,12 @@
   },
   {
     "question": "Podaj polecenie do zatrzymania usługi \"lpic\" (System V init), ale bez korzystania z polecenia \"service\".",
-    "answers": [],
+    "answers": [
+      {
+        "text": "-/etc/init.d/lpic stop",
+        "correct": false
+      }
+    ],
     "type": "open",
     "id": 66
   },
@@ -1846,7 +1856,7 @@
     "id": 88
   },
   {
-    "question": "dane spełniające powyższy warunek będą:",
+    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog(cron.warn             ~) dane spełniające powyższy warunek będą:",
     "answers": [
       {
         "text": "zapisywane tylko w domyślnym pliku z logami",
@@ -2121,7 +2131,7 @@
     "id": 101
   },
   {
-    "question": "dane spełniające powyższy warunek będą:",
+    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog(kern.debug             @@tester) dane spełniające powyższy warunek będą:",
     "answers": [
       {
         "text": "przekierowane na urządzenie o nazwie tester z wykorzystaniem protokołu UDP i portu 7",
@@ -2155,7 +2165,7 @@
     "id": 103
   },
   {
-    "question": "Który z poniższych użytkowników (lub grup użytkowników) będzie mógł skasować ten plik?",
+    "question": "W katalogu. Który z poniższych użytkowników (lub grup użytkowników) będzie mógł skasować ten plik?",
     "answers": [
       {
         "text": "wszyscy standardowi",
@@ -2448,13 +2458,13 @@
     "id": 117
   },
   {
-    "question": "został utworzony jako link symboliczny do pliku database.txt.",
+    "question": "Poniższy zasób (lrwxrwxrwx 1 student student 6 lut 20 00) został utworzony jako link symboliczny do pliku database.txt.",
     "answers": [],
     "type": "open",
     "id": 118
   },
   {
-    "question": "Które z poniższych poleceń usunie ten link?",
+    "question": "Poniższy zasób (lrwxrwxrwx 1 student student 6 lut 20 00) został utworzony jako link symboliczny do pliku database.txt. Które z poniższych poleceń usunie ten link?",
     "answers": [
       {
         "text": "unln data.txt",
@@ -2896,7 +2906,7 @@
     "id": 139
   },
   {
-    "question": "Aby fizycznie skasować ten zasób, użytkownik powinien wykonać polecenie:",
+    "question": "W systemie istnieją 2 poniższe zasoby, która są  powiązane ze sobą za pomocą linku twardego.(rw-rw-r-- 2 student student 6 lut 20 00:55 data1.txt , rw-rw-r-- 2 student student 6 lut 20 00:55 data.2txt)  Aby fizycznie skasować ten zasób, użytkownik powinien wykonać polecenie:",
     "answers": [
       {
         "text": "ln -r data1.txt",
@@ -3823,13 +3833,24 @@
   },
   {
     "question": "W którym katalogu znajdują się skrypty usług (System V init)?",
-    "answers": [],
+    "answers": [
+      {
+        "text": "/etc/init.d",
+        "correct": true
+      }
+    ],
     "type": "open",
     "id": 181
   },
+
   {
     "question": "Podaj polecenie służące do włączenia automatycznego uruchomiania usługi lpic.service podczas startu systemu.",
-    "answers": [],
+    "answers": [
+      {
+        "text": "systemctl enable lpic",
+        "correct": true
+      }
+    ],
     "type": "open",
     "id": 182
   },
@@ -3858,7 +3879,12 @@
   },
   {
     "question": "Zamień na postać symboliczną prawa do katalogu 751.",
-    "answers": [],
+    "answers": [
+      {
+        "text": "drwxr-x--x",
+        "correct": true
+      }
+    ],
     "type": "open",
     "id": 184
   },
@@ -4013,7 +4039,7 @@
     "id": 192
   },
   {
-    "question": "Które z poniższych poleceń usunie go?",
+    "question": "Poniższy zasób został utworzony jako link twardy do pliku database.txt. Które z poniższych poleceń usunie go?",
     "answers": [
       {
         "text": "rm data.txt",
@@ -4312,10 +4338,10 @@
     "id": 205
   },
   {
-    "question": "Mamy w systemie dwa fizyczne dyski twarde /dev/hda oraz /dev/hdb. Pierwszy z dysków ma partycje w punktach montowania",
+    "question": "Mamy w systemie dwa fizyczne dyski twarde /dev/hda oraz /dev/hdb. Pierwszy z dysków ma partycje w punktach montowania /boot, /usr/bin oraz /tmp/dev1. Drugi z nich ma partycje w punktach montowania: /etc, oraz /tmp/dev2. Załóżmy, że plik z tłem do GRUB-a, znajduje się w lokalizacji: /tmp/dev1/path/grub_bg.jpg. Podaj ścieżkę do tego pliku używając konwencji zgodnej z GRUB.",
     "answers": [
       {
-        "text": "/boot, /usr/bin oraz /tmp/dev1. Drugi z nich ma partycje w punktach montowania: /etc, oraz /tmp/dev2. Załóżmy, że plik z tłem do GRUB-a, znajduje się w lokalizacji: /tmp/dev1/path/grub_bg.jpg. Podaj ścieżkę do tego pliku używając konwencji zgodnej z GRUB.",
+        "text": "(hd1,0)/path/grub_bg.jpg",
         "correct": true
       }
     ],
@@ -4337,7 +4363,7 @@
     "question": "mail.info",
     "answers": [
       {
-        "text": "/var/log/mail.info",
+        "text": "",
         "correct": true
       }
     ],
@@ -4345,7 +4371,7 @@
     "id": 208
   },
   {
-    "question": "dane spełniające powyższy warunek będą zapisywane:",
+    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog (mail.info             -/var/log/mail.info) dane spełniające powyższy warunek będą zapisywane:",
     "answers": [
       {
         "text": "w domyślnym pliku z logami, ze względu na umieszczony symbol \"-\" przed ścieżką do pliku",
@@ -4761,7 +4787,7 @@
     "question": "",
     "answers": [
       {
-        "text": "rw–rw–r–– 1 carol carol 765 Dec 20 21:25 text.txt",
+        "text": "",
         "correct": true
       }
     ],
@@ -4769,7 +4795,7 @@
     "id": 228
   },
   {
-    "question": "Które z poniższych poleceń zmienią prawa dostępu na tylko do odczytu dla wszystkich?",
+    "question": "Mamy zasób(rw–rw–r–– 1 carol carol 765 Dec 20 21:25 text.txt) Które z poniższych poleceń zmienią prawa dostępu na tylko do odczytu dla wszystkich?",
     "answers": [
       {
         "text": "chmod ug-w student test.txt",
@@ -4793,10 +4819,16 @@
   },
   {
     "question": "Zamień na postać symboliczną prawa do pliku 664.",
-    "answers": [],
+    "answers": [
+      {
+        "text": "-rw-rw-r--",
+        "correct": true
+      }
+    ],
     "type": "open",
     "id": 230
   },
+
   {
     "question": "Które z poniższych poleceń służy do instalacji pakietu rpm?",
     "answers": [
@@ -4890,8 +4922,13 @@
     "id": 234
   },
   {
-    "question": "Podaj kolejność faz uruchamiania systemu Linux.",
-    "answers": [],
+    "question": "Podaj kolejność faz uruchamiania systemu Linux. po przecinku",
+    "answers": [
+      {
+        "text": "BIOS/UEFI, Bootloader, Kernel, init/systemd",
+        "correct": false
+      }
+    ],
     "type": "open",
     "id": 235
   },
@@ -5402,10 +5439,10 @@
     "id": 257
   },
   {
-    "question": "Użytkownik student należy do grup",
+    "question": "Użytkownik student należy do grup lpic oraz linux. Podaj polecenie, które dopisze go również do grupy test.",
     "answers": [
       {
-        "text": "lpic oraz linux. Podaj polecenie, które dopisze go również do grupy test.",
+        "text": "usermod -G lpic,linux,test student",
         "correct": true
       }
     ],
@@ -5604,7 +5641,12 @@
   },
   {
     "question": "Podaj polecenie wykonywane z poziomu użytkownika root służące do uruchomienia skryptu lpic.service.",
-    "answers": [],
+    "answers": [
+      {
+        "text": "systemctl start lpic",
+        "correct": false
+      }
+    ],
     "type": "open",
     "id": 268
   },
@@ -5735,7 +5777,7 @@
     "id": 274
   },
   {
-    "question": "Które z poniższych poleceń służy do wypisywania listy użytkowników, którzy do niej należą?",
+    "question": "W katalogu (-rwsrwxr-x 1 student share 68208 lip 15  2021 /tmp/project) Które z poniższych poleceń służy do wypisywania listy użytkowników, którzy do niej należą?",
     "answers": [
       {
         "text": "lsgrp",
@@ -5805,12 +5847,7 @@
   },
   {
     "question": "Użytkownik skasował następujący plik za pomocą polecenia",
-    "answers": [
-      {
-        "text": "rm data.txt",
-        "correct": true
-      }
-    ],
+    "answers": [],
     "type": "open",
     "id": 278
   },
@@ -5826,7 +5863,7 @@
     "id": 279
   },
   {
-    "question": "W wyniku tej operacji:",
+    "question": "Użytkownik skasował następujący plik za pomocą polecenia rm data.txt (rw-rw-r-- 6 student student 6 lut 20 00:55 data.txt)  W wyniku tej operacji:",
     "answers": [
       {
         "text": "skasowany zostanie sam link, a nie fizyczna reprezentacja na dysku",
@@ -6108,10 +6145,10 @@
     "id": 292
   },
   {
-    "question": "Przyporządkuj numery trybów pracy systemu (System V init) do opisu",
+    "question": "Przyporządkuj numery trybów pracy systemu (System V init) do opisu(po przecinku numerami lecac)",
     "answers": [
       {
-        "text": "",
+        "text": "0.zatrzymanie systemu, 1.tryb single user, 3.tryb tekstowy, 5.tryb graficzny,",
         "correct": true
       }
     ],
@@ -6145,7 +6182,7 @@
     "question": "Podaj polecenie (samo polecenie, bez parametrów) służące do wygenerowania wynikowego pliku grub2.cfg (GRUB w wersji 2)",
     "answers": [
       {
-        "text": "",
+        "text": "grub2-mkconfig",
         "correct": true
       }
     ],
@@ -6200,7 +6237,12 @@
   },
   {
     "question": "Załóżmy, że mam skrypt usługi /etc/init.d/lpic. Chcielibyśmy, aby ta usługa w standardowym trybie tekstowym była uruchamiana możliwie jak najpóźniej. Podaj ścieżkę do pliku (linku), które będzie odpowiadał za taką operację.",
-    "answers": [],
+    "answers": [
+      {
+        "text": "/etc/rc3.d/S99lpic",
+        "correct": false
+      }
+    ],
     "type": "open",
     "id": 298
   },
@@ -6344,7 +6386,12 @@
   },
   {
     "question": "Zamień na postać symboliczną prawa do katalogu 740.",
-    "answers": [],
+    "answers": [
+      {
+        "text": "drwxr-----",
+        "correct": false
+      }
+    ],
     "type": "open",
     "id": 305
   },
@@ -6372,10 +6419,10 @@
     "id": 306
   },
   {
-    "question": "Mamy w systemie dwa fizyczne dyski twarde /dev/hda oraz /dev/hdb. Pierwszy z dysków ma partycje w punktach montowania",
+    "question": "Mamy w systemie dwa fizyczne dyski twarde /dev/hda oraz /dev/hdb. Pierwszy z dysków ma partycje w punktach montowania /boot, /usr/bin oraz /tmp/dev1. Drugi z nich ma partycje w punktach montowania: /etc, oraz /tmp/dev2. Załóżmy, że plik z tłem do GRUB-a, znajduje się w lokalizacji: /boot/grub_bg.jpg. Podaj ścieżkę do tego pliku używając konwencji zgodnej z GRUB.",
     "answers": [
       {
-        "text": "/boot, /usr/bin oraz /tmp/dev1. Drugi z nich ma partycje w punktach montowania: /etc, oraz /tmp/dev2. Załóżmy, że plik z tłem do GRUB-a, znajduje się w lokalizacji: /boot/grub_bg.jpg. Podaj ścieżkę do tego pliku używając konwencji zgodnej z GRUB.",
+        "text": "(hd0,2)/path/grub_bg.jpg",
         "correct": true
       }
     ],
@@ -6683,12 +6730,7 @@
   },
   {
     "question": "Aplikacja",
-    "answers": [
-      {
-        "text": "",
-        "correct": true
-      }
-    ],
+    "answers": [],
     "type": "open",
     "id": 321
   },
@@ -6716,7 +6758,7 @@
     "id": 322
   },
   {
-    "question": "Jeżeli umask zwraca wartość 210 to z jakimi prawami będzie tworzony plik?",
+    "question": "Aplikacja  Jeżeli umask zwraca wartość 210 to z jakimi prawami będzie tworzony plik?",
     "answers": [
       {
         "text": "456",
@@ -7173,11 +7215,5 @@
     ],
     "type": "multiple",
     "id": 343
-  },
-  {
-    "question": "",
-    "answers": [],
-    "type": "open",
-    "id": 344
   }
 ]
