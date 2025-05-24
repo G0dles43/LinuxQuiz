@@ -278,3 +278,17 @@ button:disabled {
   margin: 4px 0;
   font-weight: 600;
 }
+
+.answer.correct {
+  background-color: #27ae60
+}
+.answer.incorrect {
+  background-color: #e74c3c;
+}
+.answer.missed {
+  background-color: #fce5cd; 
+}
+.answer.missed-warning {
+  background-color: #f1c40f;
+}
+ 

@@ -11,6 +11,22 @@ async function loadQuestions() {
   updateRangeLabels();
 }
 
+function updateSliderBackground(slider) {
+  const min = parseFloat(slider.min);
+  const max = parseFloat(slider.max);
+  const val = parseFloat(slider.value);
+
+  const percentage = ((val - min) / (max - min)) * 100;
+  slider.style.backgroundImage = `linear-gradient(to right, var(--secondary-color) 0%, var(--secondary-color) ${percentage}%, #ccc ${percentage}%, #ccc 100%)`;
+}
+
+document.querySelectorAll('input[type="range"]').forEach((slider) => {
+  slider.classList.add("styled-slider");
+  updateSliderBackground(slider);
+  slider.addEventListener("input", () => updateSliderBackground(slider));
+});
+
+
 function startTimer() {
   startTime = Date.now();
   timerInterval = setInterval(() => {
@@ -122,11 +138,18 @@ function checkAnswer() {
 
 function showResults() {
   stopTimer();
+  
   const elapsed = Math.floor((Date.now() - startTime) / 1000);
   const minutes = String(Math.floor(elapsed / 60)).padStart(2, "0");
   const seconds = String(elapsed % 60).padStart(2, "0");
-
-  document.getElementById("quiz-box").style.display = "none";
+  const sounds = [
+      document.getElementById("end-sound2"),
+      document.getElementById("end-sound3"),
+      document.getElementById("end-sound4")
+    ];
+  const randomSound = sounds[Math.floor(Math.random() * sounds.length)];
+  randomSound.play();  document.getElementById("quiz-box").style.display = "none";
+  
   document.getElementById("result-box").style.display = "block";
   document.getElementById(
     "final-score"
@@ -163,15 +186,24 @@ function showResults() {
         return `
         <div class="question-result">
           <h4>${q.question}</h4>
-          ${q.answers
-            .map((a, j) => {
-              let cls = "";
-              if (a.correct && selected.includes(j)) cls = "correct";
-              else if (a.correct) cls = "missed";
-              else if (selected.includes(j)) cls = "incorrect";
-              return `<div class="answer ${cls}">${a.text}</div>`;
-            })
-            .join("")}
+${q.answers
+  .map((a, j) => {
+    let cls = "";
+    const anyCorrectSelected = q.answers.some((ans, idx) => ans.correct && selected.includes(idx));
+    const isSelected = selected.includes(j);
+
+    if (a.correct && isSelected) {
+      cls = "correct"; 
+    } else if (a.correct && !isSelected) {
+      cls = anyCorrectSelected ? "missed-warning" : "correct"; 
+    } else if (!a.correct && isSelected) {
+      cls = "incorrect"; 
+    }
+
+    return `<div class="answer ${cls}">${a.text}</div>`;
+  })
+  .join("")}
+
         </div>
       `;
       }
