@@ -6,7 +6,7 @@ let questions = [],
 let startTime, timerInterval;
 
 async function loadQuestions() {
-  const response = await fetch("linux_quiz_with_ids.json");
+  const response = await fetch("linux_quiz.json");
   questions = await response.json();
   updateRangeLabels();
 }
@@ -26,7 +26,6 @@ document.querySelectorAll('input[type="range"]').forEach((slider) => {
   slider.addEventListener("input", () => updateSliderBackground(slider));
 });
 
-
 function startTimer() {
   startTime = Date.now();
   timerInterval = setInterval(() => {
@@ -45,10 +44,12 @@ function initializeQuiz() {
   const minId = parseInt(document.getElementById("range-min").value);
   const maxId = parseInt(document.getElementById("range-max").value);
 
-  if (minId > maxId || minId < 1 || maxId > 344)
+  if (minId > maxId || minId < 1 || maxId > 315)
     return alert("Nieprawidłowy zakres!");
 
-  selectedQuestions = questions.filter((q) => q.id >= minId && q.id <= maxId);
+  selectedQuestions = questions
+    .filter((q) => q.id >= minId && q.id <= maxId)
+    .sort(() => Math.random() - 0.5);
   if (selectedQuestions.length === 0) return alert("Brak pytań!");
 
   document.querySelector(".range-slider").style.display = "none";
@@ -138,18 +139,19 @@ function checkAnswer() {
 
 function showResults() {
   stopTimer();
-  
+
   const elapsed = Math.floor((Date.now() - startTime) / 1000);
   const minutes = String(Math.floor(elapsed / 60)).padStart(2, "0");
   const seconds = String(elapsed % 60).padStart(2, "0");
   const sounds = [
-      document.getElementById("end-sound2"),
-      document.getElementById("end-sound3"),
-      document.getElementById("end-sound4")
-    ];
+    document.getElementById("end-sound2"),
+    document.getElementById("end-sound3"),
+    document.getElementById("end-sound4"),
+  ];
   const randomSound = sounds[Math.floor(Math.random() * sounds.length)];
-  randomSound.play();  document.getElementById("quiz-box").style.display = "none";
-  
+  randomSound.play();
+  document.getElementById("quiz-box").style.display = "none";
+
   document.getElementById("result-box").style.display = "block";
   document.getElementById(
     "final-score"
@@ -189,15 +191,17 @@ function showResults() {
 ${q.answers
   .map((a, j) => {
     let cls = "";
-    const anyCorrectSelected = q.answers.some((ans, idx) => ans.correct && selected.includes(idx));
+    const anyCorrectSelected = q.answers.some(
+      (ans, idx) => ans.correct && selected.includes(idx)
+    );
     const isSelected = selected.includes(j);
 
     if (a.correct && isSelected) {
-      cls = "correct"; 
+      cls = "correct";
     } else if (a.correct && !isSelected) {
-      cls = anyCorrectSelected ? "missed-warning" : "correct"; 
+      cls = anyCorrectSelected ? "missed-warning" : "correct";
     } else if (!a.correct && isSelected) {
-      cls = "incorrect"; 
+      cls = "incorrect";
     }
 
     return `<div class="answer ${cls}">${a.text}</div>`;

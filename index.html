@@ -18,8 +18,8 @@
       <div class="range-slider">
         <label>Zakres pytań ID: <span id="range-label">1 - 344</span></label>
         <div class="dual-slider">
-          <input type="range" id="range-min" min="1" max="344" value="1" />
-          <input type="range" id="range-max" min="1" max="344" value="344" />
+          <input type="range" id="range-min" min="1" max="315" value="1" />
+          <input type="range" id="range-max" min="1" max="315" value="315" />
         </div>
       </div>
 
@@ -63,16 +63,18 @@
           <strong>Poprawnych odpowiedzi:</strong> <span id="final-score"></span>
           <p><strong>Czas trwania:</strong> <span id="final-time"></span></p>
         </p>
+        
         <div class="legend">
           <h4>Legenda:</h4>
           <span class="badge correct">Poprawna odpowiedź</span>
           <span class="badge incorrect">Błędna odpowiedź</span>
           <span class="badge missed">Brakująca poprawna</span>
         </div>
-        <div id="summary"></div>
         <button id="restart-btn" type="button" style="margin-top: 20px;">
           <i class="fas fa-redo"></i> Rozpocznij nowy quiz
         </button>
+        <div id="summary"></div>
+        
       </div>
     </div>
 

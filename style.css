@@ -280,15 +280,14 @@ button:disabled {
 }
 
 .answer.correct {
-  background-color: #27ae60
+  background-color: #27ae60;
 }
 .answer.incorrect {
   background-color: #e74c3c;
 }
 .answer.missed {
-  background-color: #fce5cd; 
+  background-color: #fce5cd;
 }
 .answer.missed-warning {
   background-color: #f1c40f;
 }
- 
