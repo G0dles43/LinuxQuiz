@@ -260,3 +260,14 @@ document
 );
 
 loadQuestions();
+
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    const nextBtn = document.getElementById("next-btn");
+
+    if (nextBtn && nextBtn.offsetParent !== null) {
+      event.preventDefault();
+      nextBtn.click();
+    }
+  }
+});
