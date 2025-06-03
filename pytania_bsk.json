@@ -1,0 +1,2537 @@
+[
+  {
+    "question": "Który z poniższych skrótów określają system IDS dedykowany do ochrony pojedynczego urządzenia?",
+    "answers": [
+      {
+        "text": "Hids",
+        "correct": true
+      },
+      {
+        "text": "Nids",
+        "correct": false
+      },
+      {
+        "text": "Żaden z wymienionych",
+        "correct": false
+      },
+      {
+        "text": "Nnisd",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 1
+  },
+  {
+    "question": "lickjacking polega na:?",
+    "answers": [
+      {
+        "text": "Żadne z wymienionych",
+        "correct": false
+      },
+      {
+        "text": "Zmianie odnośnika hiperłącza",
+        "correct": true
+      },
+      {
+        "text": "Wysyłaniu dużej liczby żądań do witryny internetowej symulujących przyciśniecie danego przycisku, który na niej się znajduje",
+        "correct": false
+      },
+      {
+        "text": "Sztucznym nabijaniu licznika odwiedzin",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 2
+  },
+  {
+    "question": "Narzędzie John the Ripper służy do:?",
+    "answers": [
+      {
+        "text": "Odkrywania zawartości serwera www",
+        "correct": false
+      },
+      {
+        "text": "Uruchamiania exploitów",
+        "correct": false
+      },
+      {
+        "text": "Łamania haseł",
+        "correct": true
+      },
+      {
+        "text": "Skanowania portów",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 3
+  },
+  {
+    "question": "Tablice tęczowe to:?",
+    "answers": [
+      {
+        "text": "Żadne z wymienionych",
+        "correct": true
+      },
+      {
+        "text": "Lista niezałatanych luk, które mogą być wykorzystane do kompromitacji systemu",
+        "correct": false
+      },
+      {
+        "text": "Bazy danych z najpopularniejszymi hasłami użytkowników w postaci jawnej",
+        "correct": false
+      },
+      {
+        "text": "Lista serwerów pocztowych bez zainstalowanego systemu antywirusowego",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 4
+  },
+  {
+    "question": "Czy zgodnie z prawem Unii Europejskiej adresy MAC są daną wrażliwą i nie mogą być zbierane i przechowywane na serwerach?",
+    "answers": [
+      {
+        "text": "Tak, ale tylko urządzeń o publicznym adresie ip",
+        "correct": false
+      },
+      {
+        "text": "Nie są daną wrażliwą",
+        "correct": true
+      },
+      {
+        "text": "Tak, to zawsze są dane wrażliwe",
+        "correct": false
+      },
+      {
+        "text": "Tak, ale w przypadku jego klonowania ten przepis nie obowiązuje",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 5
+  },
+  {
+    "question": "Które z poniższych narzędzi można użyć do ochrony przed phishingiem?",
+    "answers": [
+      {
+        "text": "Nmap",
+        "correct": false
+      },
+      {
+        "text": "Theharvester",
+        "correct": false
+      },
+      {
+        "text": "Whois",
+        "correct": true
+      },
+      {
+        "text": "Ssh-agent",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 6
+  },
+  {
+    "question": "Który z poniższych typów systemów służy do wykrywania ataków?",
+    "answers": [
+      {
+        "text": "Ids",
+        "correct": true
+      },
+      {
+        "text": "Open-relay",
+        "correct": false
+      },
+      {
+        "text": "Websploit",
+        "correct": false
+      },
+      {
+        "text": "Ddos",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 7
+  },
+  {
+    "question": "Na jakim protokole i porcie działa domyślnie usługa SSH?",
+    "answers": [
+      {
+        "text": "Udp/53",
+        "correct": false
+      },
+      {
+        "text": "Udp/21",
+        "correct": false
+      },
+      {
+        "text": "Tcp/22",
+        "correct": true
+      },
+      {
+        "text": "Tcp/24",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 8
+  },
+  {
+    "question": "Które z poniższych danych o kliencie nie są przesyłane podczas sesji HTTP?",
+    "answers": [
+      {
+        "text": "Wszystkie wymienione są przesyłane",
+        "correct": true
+      },
+      {
+        "text": "Nazwa przeglądarki",
+        "correct": false
+      },
+      {
+        "text": "Wersja przeglądarki",
+        "correct": false
+      },
+      {
+        "text": "Zmienna \"user-agent\"",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 9
+  },
+  {
+    "question": "W przypadku standardu PTES, w której fazie wykorzystywane są exploity?",
+    "answers": [
+      {
+        "text": "Przygotowania raportu",
+        "correct": false
+      },
+      {
+        "text": "Modelowanie zagrożeń",
+        "correct": false
+      },
+      {
+        "text": "Eksploatacji",
+        "correct": true
+      },
+      {
+        "text": "Rekonesansu",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 10
+  },
+  {
+    "question": "Które z wymienionych określają standardy przeprowadzania testów penetracyjnych?",
+    "answers": [
+      {
+        "text": "Bug bounty",
+        "correct": false
+      },
+      {
+        "text": "Hids",
+        "correct": false
+      },
+      {
+        "text": "Ptes",
+        "correct": true
+      },
+      {
+        "text": "Ctf",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 11
+  },
+  {
+    "question": "W przypadku jawnych testów penetracyjnych prawdziwe jest następujące określenie w porównaniu do testów ukrytych:?",
+    "answers": [
+      {
+        "text": "Są droższe i wolniejsze",
+        "correct": false
+      },
+      {
+        "text": "Poziom złożoności czasochłonności jest taki sam",
+        "correct": false
+      },
+      {
+        "text": "Są tańsze i szybsze",
+        "correct": true
+      },
+      {
+        "text": "Są tańsze i wolniejsze",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 12
+  },
+  {
+    "question": "W przypadku standardu PTES po \"Eksploatacji\" następuje faza:?",
+    "answers": [
+      {
+        "text": "Poeksploatacyjna",
+        "correct": true
+      },
+      {
+        "text": "Modelowanie zagrożeń",
+        "correct": false
+      },
+      {
+        "text": "Zbierania informacji",
+        "correct": false
+      },
+      {
+        "text": "Przygotowania raportu",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 13
+  },
+  {
+    "question": "Rekonesans w przypadku testów penetracyjnych to:?",
+    "answers": [
+      {
+        "text": "Zebranie informacji o atakowanym systemie",
+        "correct": true
+      },
+      {
+        "text": "Szczegółowa analiza powłamaniowa, przygotowana we współpracy z administratorem sieciach",
+        "correct": false
+      },
+      {
+        "text": "Zaplanowana przerwa w przeprowadzaniu testów, aby zapobiec wykryciu przez ids/ips przeprowadzanych prób ataku",
+        "correct": false
+      },
+      {
+        "text": "Wielokrotna próba złamania zabezpieczenia, z każdorazową modyfikacją użytych parametrów",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 14
+  },
+  {
+    "question": "Elementem odwrotnym do liczby 3 w grupie multiplikatywnej liczb całkowitych modulo n (dla n=5)  jest?",
+    "answers": [
+      {
+        "text": "2",
+        "correct": true
+      },
+      {
+        "text": "-3",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": false
+      },
+      {
+        "text": "1/3",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 15
+  },
+  {
+    "question": "Szyfr Playfair należy do grupy szyfrów?",
+    "answers": [
+      {
+        "text": "Przestawieniowych",
+        "correct": false
+      },
+      {
+        "text": "Wieloalfabetycznych",
+        "correct": false
+      },
+      {
+        "text": "Asymetrycznych",
+        "correct": false
+      },
+      {
+        "text": "Poligramowych",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 16
+  },
+  {
+    "question": "Wykorzystanie szyfru blokowego jako szyfru strumieniowego szyfrującego po jednym bicie umożliwia tryb:?",
+    "answers": [
+      {
+        "text": "Cbc",
+        "correct": false
+      },
+      {
+        "text": "Ecb",
+        "correct": false
+      },
+      {
+        "text": "Cfb",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 17
+  },
+  {
+    "question": "Zmiana jednego bitu w wektorze IV powoduje?",
+    "answers": [
+      {
+        "text": "Zmianę jednego bitu szyfrogramu w każdym szyfrowanym bloku",
+        "correct": false
+      },
+      {
+        "text": "Zmianę jednego bitu w szyfrogramie",
+        "correct": false
+      },
+      {
+        "text": "Kompletna (bardzo duża) zmianę w szyfrogramie",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 18
+  },
+  {
+    "question": "W algorytmie DES?",
+    "answers": [
+      {
+        "text": "Jest wykorzystywana zarówno arytmetyka modularna jak również podstawowe działania logiczne",
+        "correct": false
+      },
+      {
+        "text": "Są wykorzystywane wyłącznie działania dodawania i odejmowania liczb całkowitych",
+        "correct": false
+      },
+      {
+        "text": "Są wykorzystywane działania logiczne, podstawienia i permutacje",
+        "correct": true
+      },
+      {
+        "text": "Są wykorzystywane rozbudowane działania oparte o arytmetykę modularną",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 19
+  },
+  {
+    "question": "Plik konfiguracyjny serwera SSH to:?",
+    "answers": [
+      {
+        "text": "/etc/bind/ssh.conf",
+        "correct": false
+      },
+      {
+        "text": "/home/ssh/ssh_config",
+        "correct": false
+      },
+      {
+        "text": "~/.ssh/config",
+        "correct": false
+      },
+      {
+        "text": "/etc/ssh/sshd_config",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 20
+  },
+  {
+    "question": "Atak Smurf to atak typu:?",
+    "answers": [
+      {
+        "text": "Wzmocniony dos",
+        "correct": true
+      },
+      {
+        "text": "Xss",
+        "correct": false
+      },
+      {
+        "text": "Clickjacking",
+        "correct": false
+      },
+      {
+        "text": "Zamaskowany mitm",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 21
+  },
+  {
+    "question": "Plik authorized_keys na serwerze SSH zawiera:?",
+    "answers": [
+      {
+        "text": "Parę kluczy (publiczny oraz prywatny) serwera ssh",
+        "correct": false
+      },
+      {
+        "text": "Klucze prywatne użytkowników uwierzytelnianych za pomocą kluczy",
+        "correct": false
+      },
+      {
+        "text": "Dane konfiguracyjne wykorzystywane podczas generowania kluczy",
+        "correct": false
+      },
+      {
+        "text": "Klucze publiczne użytkowników uwierzytelnianych za pomocą kluczy",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 22
+  },
+  {
+    "question": "Strefa DMZ to:?",
+    "answers": [
+      {
+        "text": "Fragment infrastruktury sieciowej, w której uruchamiane są serwery dhcp",
+        "correct": false
+      },
+      {
+        "text": "Fragment infrastruktury sieciowej wydzielonej z sieci lokalnej, do której mają dostęp osoby z zewnątrz",
+        "correct": true
+      },
+      {
+        "text": "Fragment infrastruktury sieciowej, w której uruchamiane są serwery dns",
+        "correct": false
+      },
+      {
+        "text": "Fragment infrastruktury sieciowej wydzielonej z sieci lokalnej, do której mają dostęp osoby tylko z wewnątrz",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 23
+  },
+  {
+    "question": "Jaki rodzaj szyfrowania jest używany podczas autentykacji w usłudze SSH?",
+    "answers": [
+      {
+        "text": "Na tym etapie dane nie są jeszcze szyfrowane",
+        "correct": false
+      },
+      {
+        "text": "Symetryczne",
+        "correct": false
+      },
+      {
+        "text": "Asymetryczne",
+        "correct": true
+      },
+      {
+        "text": "Podstawieniowe",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 24
+  },
+  {
+    "question": "Analiza tzw. wąskich gardeł aplikacji może pomóc uniknąć przede wszystkim ataku DDoS typu:?",
+    "answers": [
+      {
+        "text": "Wzmocnionego",
+        "correct": false
+      },
+      {
+        "text": "Aplikacyjnego",
+        "correct": true
+      },
+      {
+        "text": "Pulsacyjnego",
+        "correct": false
+      },
+      {
+        "text": "Wolumetrycznego",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 25
+  },
+  {
+    "question": "Który z poniższych skrótów oznacza hybrydowy system IDS?",
+    "answers": [
+      {
+        "text": "Nids",
+        "correct": false
+      },
+      {
+        "text": "Żaden z wymienionych",
+        "correct": false
+      },
+      {
+        "text": "Nnids",
+        "correct": true
+      },
+      {
+        "text": "Hids",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 26
+  },
+  {
+    "question": "Ping of Death to atak typu?",
+    "answers": [
+      {
+        "text": "Clickjacking",
+        "correct": false
+      },
+      {
+        "text": "Dos",
+        "correct": true
+      },
+      {
+        "text": "Brute force",
+        "correct": false
+      },
+      {
+        "text": "Phishing",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 27
+  },
+  {
+    "question": "Czym się różni atak DoS od DDoS?",
+    "answers": [
+      {
+        "text": "Ddos to atak przeprowadzany na urządzenia iot",
+        "correct": false
+      },
+      {
+        "text": "Ddos to atak dos przeprowadzany z wielu urządzeń",
+        "correct": true
+      },
+      {
+        "text": "Niczym, są to skróty synonimów",
+        "correct": false
+      },
+      {
+        "text": "Ddos (double dos) składa się z podwójnej liczny ataków",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 28
+  },
+  {
+    "question": "Systemy IDS w ramach reakcji na zaistniały incydent nie powinny stosować akcji odwetowej, gdyż:?",
+    "answers": [
+      {
+        "text": "Żadna z powyższych",
+        "correct": true
+      },
+      {
+        "text": "Jest to zbyt kosztowne",
+        "correct": false
+      },
+      {
+        "text": "Jest to nieetyczne",
+        "correct": false
+      },
+      {
+        "text": "Jest to procedura nieopisana w standardzie ieee",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 29
+  },
+  {
+    "question": "Które z poniższych parametrów mogą być użyte do deanonimizacji użytkownika lub urządzenia?",
+    "answers": [
+      {
+        "text": "Adres mac",
+        "correct": true
+      },
+      {
+        "text": "Usługa cron",
+        "correct": false
+      },
+      {
+        "text": "Adres ip",
+        "correct": true
+      },
+      {
+        "text": "Parametr user-agent, w przypadku korzystania z przeglądarki",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 30
+  },
+  {
+    "question": "W przypadku standardu PTES, w której fazie zbierana są informacje o sieci i jej strukturze?",
+    "answers": [
+      {
+        "text": "Rekonesansu",
+        "correct": true
+      },
+      {
+        "text": "Przygotowania raportu",
+        "correct": false
+      },
+      {
+        "text": "Modelowanie zagrożeń",
+        "correct": false
+      },
+      {
+        "text": "Eksploatacji",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 31
+  },
+  {
+    "question": "W przypadku standardu PTES, w której fazie określane są najbardziej efektywne metody ataków na daną sieć?",
+    "answers": [
+      {
+        "text": "Modelowanie zagrożeń",
+        "correct": true
+      },
+      {
+        "text": "Eksploatacji",
+        "correct": false
+      },
+      {
+        "text": "Przygotowania raportu",
+        "correct": false
+      },
+      {
+        "text": "Zbierania informacji",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 32
+  },
+  {
+    "question": "Pliki robots.txt na serwerach WWW zawierają :?",
+    "answers": [
+      {
+        "text": "Klucze prywatne do szyfrowania połączeń",
+        "correct": false
+      },
+      {
+        "text": "Reguły do automatycznego tworzenia kopii zapasowych",
+        "correct": false
+      },
+      {
+        "text": "Reguły firewalla chroniące ten serwer",
+        "correct": false
+      },
+      {
+        "text": "Informację dla robotów sieciowych o zasobach serwera, które mogą być indeksowane",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 33
+  },
+  {
+    "question": "W przypadku ukrytych testów penetracyjnych prawdziwe jest następujące określenie w porównaniu do testów jawnych?",
+    "answers": [
+      {
+        "text": "Są tańsze i wolniejsze",
+        "correct": false
+      },
+      {
+        "text": "Są droższe i wolniejsze",
+        "correct": true
+      },
+      {
+        "text": "Są tańsze i szybsze",
+        "correct": false
+      },
+      {
+        "text": "Poziom złożoności czasochłonności jest taki sam",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 34
+  },
+  {
+    "question": "W szyfrach symetrycznych do szyfrowania i odszyfrowywania danych?",
+    "answers": [
+      {
+        "text": "Wykorzystywany jest jeden klucz zapisany w formie certyﬁkatu",
+        "correct": false
+      },
+      {
+        "text": "Wykorzystywane są rożne klucze",
+        "correct": false
+      },
+      {
+        "text": "Wykorzystywany jest ten sam klucz",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 35
+  },
+  {
+    "question": "Wartość funkcji skrótu dla dwóch rożnych dokumentów?",
+    "answers": [
+      {
+        "text": "Nigdy nie możne być taka sama",
+        "correct": false
+      },
+      {
+        "text": "Możne być taka sama tylko i wyłącznie w przypadku, gdy dokumenty zapisane są w tym samym języku",
+        "correct": false
+      },
+      {
+        "text": "Z pewnym bardzo małym prawdopodobieństwem możne być taka sama",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 36
+  },
+  {
+    "question": "Funkcja jednokierunkowa to funkcja:?",
+    "answers": [
+      {
+        "text": "Której wartości zmieniają się liniowo w dół lub w górę (tylko wzrastają lub tylko zmniejszają się)",
+        "correct": false
+      },
+      {
+        "text": "Jako wynik podaje wartość z określonego skończonego zbioru liczb nazywanego kierunkiem",
+        "correct": false
+      },
+      {
+        "text": "Łatwa do obliczenia ale trudna do odwrócenia",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 37
+  },
+  {
+    "question": "Jeżeli w danych wejściowych jest dużo takich samych obszarów to plik wyjściowy zachowa „kontury” pliku wejściowego w trybie szyfrowania?",
+    "answers": [
+      {
+        "text": "Ecb",
+        "correct": true
+      },
+      {
+        "text": "Cbc",
+        "correct": false
+      },
+      {
+        "text": "Cfb",
+        "correct": false
+      },
+      {
+        "text": "Ofb",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 38
+  },
+  {
+    "question": "RSA należy do grupy algorytmów?",
+    "answers": [
+      {
+        "text": "Liniowych",
+        "correct": false
+      },
+      {
+        "text": "Wykładniczych",
+        "correct": true
+      },
+      {
+        "text": "Logarytmicznych",
+        "correct": false
+      },
+      {
+        "text": "Krzywych eliptycznych",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 39
+  },
+  {
+    "question": "Które z poniższych parametrów są przesyłane przez klienta do serwera WWW w zmiennej User-Agent?",
+    "answers": [
+      {
+        "text": "Nazwa systemu operacyjnego",
+        "correct": true
+      },
+      {
+        "text": "Numer wersji przeglądarki",
+        "correct": true
+      },
+      {
+        "text": "Nazwa zalogowanego użytkownika",
+        "correct": false
+      },
+      {
+        "text": "Rozdzielczość ekranu klienta",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 40
+  },
+  {
+    "question": "Które z poniższych określeń wskazują na elementy zwiększające poziom bezpieczeństwa haseł?",
+    "answers": [
+      {
+        "text": "Miód",
+        "correct": false
+      },
+      {
+        "text": "Sól",
+        "correct": true
+      },
+      {
+        "text": "Chilli",
+        "correct": false
+      },
+      {
+        "text": "Pieprz",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 41
+  },
+  {
+    "question": "Ping of Death to atak typu:?",
+    "answers": [
+      {
+        "text": "Dos",
+        "correct": true
+      },
+      {
+        "text": "Brute force",
+        "correct": false
+      },
+      {
+        "text": "Clickjacking",
+        "correct": false
+      },
+      {
+        "text": "Phishing",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 42
+  },
+  {
+    "question": "Które z poniższych danych o kliencie nie są przesyłane podczas sesji HTTP?",
+    "answers": [
+      {
+        "text": "Wszystkie wymienione są przesyłane",
+        "correct": true
+      },
+      {
+        "text": "Nazwa systemu operacyjnego",
+        "correct": false
+      },
+      {
+        "text": "Nazwa przeglądarki",
+        "correct": false
+      },
+      {
+        "text": "Wersja przeglądarki",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 43
+  },
+  {
+    "question": "Plik konfiguracyjny klienta SSH dla danego użytkownika to:?",
+    "answers": [
+      {
+        "text": "~/.ssh/config",
+        "correct": true
+      },
+      {
+        "text": "/etc/client_ssh/ssh.conf",
+        "correct": false
+      },
+      {
+        "text": "~/ssh/ssh_config",
+        "correct": false
+      },
+      {
+        "text": "/etc/ssh/sshd_config",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 44
+  },
+  {
+    "question": "Która z poniższych metod autentykacji użytkowników na serwerze SSH daje większe bezpieczeństwo?",
+    "answers": [
+      {
+        "text": "Logowanie za pomocą kluczy",
+        "correct": true
+      },
+      {
+        "text": "Obydwie metody są równie łatwa to złamania",
+        "correct": false
+      },
+      {
+        "text": "Logowanie za pomocą hasła",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 45
+  },
+  {
+    "question": "Logując się serwerze SSH za pomocą kluczy:?",
+    "answers": [
+      {
+        "text": "Dane są kompresowane podczas przesyłania",
+        "correct": false
+      },
+      {
+        "text": "Automatycznie blokowane są połączenia na konto użytkownika root",
+        "correct": false
+      },
+      {
+        "text": "Możemy ustawić logowanie do tego samego konta większej liczbie użytkowników i każdy będzie używał własnego klucza",
+        "correct": true
+      },
+      {
+        "text": "Mamy zwiększoną odporność na złamanie uwierzytelnień",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 46
+  },
+  {
+    "question": "Narzędzie Scapy suży do:?",
+    "answers": [
+      {
+        "text": "Łamania haseł",
+        "correct": false
+      },
+      {
+        "text": "Uruchamiania exploitów",
+        "correct": false
+      },
+      {
+        "text": "Generowania \"sztucznych\" pakietów",
+        "correct": true
+      },
+      {
+        "text": "Podsłuchiwania danych",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 47
+  },
+  {
+    "question": "System HIDS służy do ochrony przed atakami:?",
+    "answers": [
+      {
+        "text": "Pojedynczego urządzenia",
+        "correct": true
+      },
+      {
+        "text": "Wybranego protokołu sieciowego",
+        "correct": false
+      },
+      {
+        "text": "Pojedynczej aplikacji",
+        "correct": false
+      },
+      {
+        "text": "Całej sieci",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 48
+  },
+  {
+    "question": "Które z poniższych nazw określają główne typy ataków DoS/DDoS?",
+    "answers": [
+      {
+        "text": "Wolumetryczne",
+        "correct": true
+      },
+      {
+        "text": "Aplikacyjne",
+        "correct": true
+      },
+      {
+        "text": "Transportowe",
+        "correct": false
+      },
+      {
+        "text": "Hierarchiczne",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 49
+  },
+  {
+    "question": "Fingerprint (odcisk palca) klucza służy do:?",
+    "answers": [
+      {
+        "text": "Weryfikowania, czy został podany prawidłowy klucz",
+        "correct": true
+      },
+      {
+        "text": "Logowania się na serwer z użyciem odcisku palca (urządzenie musi być wyposażone w stosowny czytnik)",
+        "correct": false
+      },
+      {
+        "text": "Nadania dla klucza przyjaznej nazwy (np. “klucz do serwera”)",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 50
+  },
+  {
+    "question": "W przypadku standardu PTES po \"Analizie luk w zabezpieczeniach\" następuje faza:?",
+    "answers": [
+      {
+        "text": "Przygotowania raportu",
+        "correct": false
+      },
+      {
+        "text": "Zbierania informacji",
+        "correct": false
+      },
+      {
+        "text": "Modelowanie zagrożeń",
+        "correct": false
+      },
+      {
+        "text": "Eksploatacji",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 51
+  },
+  {
+    "question": "Które z poniższych narzędzi NIE stosuje się w fazie rekonesansu?",
+    "answers": [
+      {
+        "text": "Whois",
+        "correct": false
+      },
+      {
+        "text": "Wszystkie są stosowane",
+        "correct": true
+      },
+      {
+        "text": "Nmap",
+        "correct": false
+      },
+      {
+        "text": "Maltego",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 52
+  },
+  {
+    "question": "Które z poniższych narzędzi NIE stosuje się w fazie rekonesansu?",
+    "answers": [
+      {
+        "text": "Metasploit",
+        "correct": true
+      },
+      {
+        "text": "Wszystkie są stosowane",
+        "correct": false
+      },
+      {
+        "text": "Wyszukiwarka internetowa",
+        "correct": false
+      },
+      {
+        "text": "Wayback machine",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 53
+  },
+  {
+    "question": "Która z poniższych dyrektyw pliki robots.txt na serwerach WWW sugeruje robotom sieciowym pomięcie indeksowania zasobu /secret/:?",
+    "answers": [
+      {
+        "text": "Disallow: /secret/",
+        "correct": true
+      },
+      {
+        "text": "Deny: /secret/",
+        "correct": false
+      },
+      {
+        "text": "Drop: /secret/",
+        "correct": false
+      },
+      {
+        "text": "Disable: /secret/",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 54
+  },
+  {
+    "question": "RSA to algorytm?",
+    "answers": [
+      {
+        "text": "Asymetryczny",
+        "correct": true
+      },
+      {
+        "text": "Symetryczny",
+        "correct": false
+      },
+      {
+        "text": "Symetryczny lub asymetryczny w zależności od konfiguracji",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 55
+  },
+  {
+    "question": "W kryptosystemie hybrydowych?",
+    "answers": [
+      {
+        "text": "Klucz sesji pobierany jest z repozytorium (klucz publiczny) i do komunikacji wykorzystywana jest kryptografia asymetryczna",
+        "correct": false
+      },
+      {
+        "text": "Wymiana klucza sesji następuje z wykorzystaniem kryptografii symetrycznej, a dalsza komunikacji oparta jest o kryptografię asymetryczną",
+        "correct": false
+      },
+      {
+        "text": "Wymiana klucza sesji następuje z wykorzystaniem kryptografii asymetrycznej, a dalsza komunikacji oparta jest o kryptografię symetryczną",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 56
+  },
+  {
+    "question": "Przykład szyfru bezwarunkowo bezpiecznego?",
+    "answers": [
+      {
+        "text": "Des",
+        "correct": false
+      },
+      {
+        "text": "Rsa",
+        "correct": false
+      },
+      {
+        "text": "Cmentarny",
+        "correct": false
+      },
+      {
+        "text": "Z kluczem jednokrotnym",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 57
+  },
+  {
+    "question": "W kryptografii asymetrycznej?",
+    "answers": [
+      {
+        "text": "Osoba szyfrująca wiadomość kluczem publicznym jest w stanie odszyfrować ją tym samym kluczem publicznym",
+        "correct": false
+      },
+      {
+        "text": "Osoba szyfrująca wiadomość kluczem prywatnym jest w stanie odszyfrować ją tym samym kluczem prywatnym",
+        "correct": false
+      },
+      {
+        "text": "Osoba szyfrująca wiadomość kluczem prywatnym nie jest w stanie odszyfrować jej tym samym kluczem",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 58
+  },
+  {
+    "question": "Zrównoleglenie procesu szyfrowania i deszyfrowania możliwe jest w trybie:?",
+    "answers": [
+      {
+        "text": "Cbc",
+        "correct": false
+      },
+      {
+        "text": "Ctr",
+        "correct": true
+      },
+      {
+        "text": "Cfb",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 59
+  },
+  {
+    "question": "Jaki rodzaj szyfrowania jest używany podczas przesyłania poleceń w usłudze SSH?",
+    "answers": [
+      {
+        "text": "Podstawieniowe",
+        "correct": false
+      },
+      {
+        "text": "Asymetryczne",
+        "correct": false
+      },
+      {
+        "text": "Symetryczne",
+        "correct": true
+      },
+      {
+        "text": "Na tym etapie dane nie są jeszcze szyfrowane",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 60
+  },
+  {
+    "question": "Plik ~/.ssh/known_hosts na kliencie SSH zawiera:?",
+    "answers": [
+      {
+        "text": "Parę kluczy (publiczny oraz prywatny) serwera ssh",
+        "correct": false
+      },
+      {
+        "text": "Klucze publiczne hostów, z którymi kiedyś nawiązano połączenie",
+        "correct": true
+      },
+      {
+        "text": "Dane konfiguracyjne wykorzystywane podczas generowania kluczy dla zaufanych hostów",
+        "correct": false
+      },
+      {
+        "text": "Klucze prywatne zaufanych hostów",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 61
+  },
+  {
+    "question": "DRDoS to atak:?",
+    "answers": [
+      {
+        "text": "Ddos typu slow",
+        "correct": false
+      },
+      {
+        "text": "Pulsacyjny ddos",
+        "correct": false
+      },
+      {
+        "text": "Losowy ddos",
+        "correct": false
+      },
+      {
+        "text": "Wzmocniony ddos",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 62
+  },
+  {
+    "question": "Zakładając, że użytkownik jest zalogowany na koncie root, które z poniższych poleceń może zostać użyte do zalogowania się za pomocą protokołu SSH na konto student na urządzeniu lpic.pb.edu.pl?",
+    "answers": [
+      {
+        "text": "Student ssh lpic.pb.edu.pl",
+        "correct": false
+      },
+      {
+        "text": "Ssh lpic.pb.edu.pl -p user student",
+        "correct": false
+      },
+      {
+        "text": "Ssh student@lpic.pb.edu.pl",
+        "correct": true
+      },
+      {
+        "text": "Ssh lpic.pb.edu.pl",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 63
+  },
+  {
+    "question": "Zakładając, że użytkownik jest zalogowany na koncie student, które z poniższych poleceń może zostać użyte do zalogowania się za pomocą protokołu SSH na konto student na urządzeniu lpic.pb.edu.pl?",
+    "answers": [
+      {
+        "text": "Ssh lpic.pb.edu.pl",
+        "correct": true
+      },
+      {
+        "text": "Ssh lpic.pb.edu.pl -p user student",
+        "correct": false
+      },
+      {
+        "text": "Ssh student@lpic.pb.edu.pl",
+        "correct": true
+      },
+      {
+        "text": "Student ssh lpic.pb.edu.pl",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 64
+  },
+  {
+    "question": "Które z poniższych nazw określają typy ataków DDoS?",
+    "answers": [
+      {
+        "text": "Maskowane",
+        "correct": false
+      },
+      {
+        "text": "Wolumetryczne",
+        "correct": true
+      },
+      {
+        "text": "Aplikacyjne",
+        "correct": true
+      },
+      {
+        "text": "Ukryte",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 65
+  },
+  {
+    "question": "Które z poniższych poleceń może zostać użyte to wygenerowania pary kluczy opartych o algorytm RSA?",
+    "answers": [
+      {
+        "text": "Ssh-agent -c rsa",
+        "correct": false
+      },
+      {
+        "text": "Ssh-keygen -t rsa",
+        "correct": true
+      },
+      {
+        "text": "Sftp --key rsa",
+        "correct": false
+      },
+      {
+        "text": "Rsa_generator",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 66
+  },
+  {
+    "question": "Które z poleceń może zostać użyte do kopiowania plików pomiędzy urządzeniami w ramach usługi SFTP?",
+    "answers": [
+      {
+        "text": "Cp",
+        "correct": false
+      },
+      {
+        "text": "Sftp_copy",
+        "correct": false
+      },
+      {
+        "text": "Scp",
+        "correct": true
+      },
+      {
+        "text": "Ssh_cp",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 67
+  },
+  {
+    "question": "Które z poniższych narzędzi NIE nie zawiera bazy danych exploitów do przeprowadzania ataków?",
+    "answers": [
+      {
+        "text": "Websploit",
+        "correct": false
+      },
+      {
+        "text": "Metasploit",
+        "correct": false
+      },
+      {
+        "text": "Wszystkie wymienione zawierają",
+        "correct": true
+      },
+      {
+        "text": "Nmap",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 68
+  },
+  {
+    "question": "Serwis WayBack Machine:?",
+    "answers": [
+      {
+        "text": "Zawiera podstawowy zestaw narzędzi pentestera",
+        "correct": false
+      },
+      {
+        "text": "Jest serwerem testowym do nauki przeprowadzania testów penetracyjnych",
+        "correct": false
+      },
+      {
+        "text": "Zawiera archiwalne strony serwisów www",
+        "correct": true
+      },
+      {
+        "text": "Służy do automatycznego i darmowego podpisywania certyfikatów",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 69
+  },
+  {
+    "question": "Które z poniższych narzędzi NIE służy do wyszukiwania urządzeń sieciowych?",
+    "answers": [
+      {
+        "text": "Shodan",
+        "correct": false
+      },
+      {
+        "text": "Nslookup",
+        "correct": true
+      },
+      {
+        "text": "Wszystkie są stosowane",
+        "correct": false
+      },
+      {
+        "text": "Censys",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 70
+  },
+  {
+    "question": "W przypadku standardu PTES, w której fazie badany jest wpływ przełamania zabezpieczeń danego systemu na bezpieczeństwo inne systemów z nim powiązanych?",
+    "answers": [
+      {
+        "text": "Rekonesansu",
+        "correct": false
+      },
+      {
+        "text": "Poeksploatacyjna",
+        "correct": true
+      },
+      {
+        "text": "Modelowanie zagrożeń",
+        "correct": false
+      },
+      {
+        "text": "Eksploatacji",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 71
+  },
+  {
+    "question": "W przypadku standardu PTES pomiędzy \"Rekonesansem\" a \"Analizą luk w zabezpieczeniach\" znajduje się faza:?",
+    "answers": [
+      {
+        "text": "Przygotowania raportu",
+        "correct": false
+      },
+      {
+        "text": "Modelowanie zagrożeń",
+        "correct": true
+      },
+      {
+        "text": "Zbierania informacji",
+        "correct": false
+      },
+      {
+        "text": "Eksploatacji",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 72
+  },
+  {
+    "question": "W przypadku standardu PTES po fazie poeksploatacyjnej następuje faza:?",
+    "answers": [
+      {
+        "text": "Analiza luk w zabezpieczeniach",
+        "correct": false
+      },
+      {
+        "text": "Zbierania informacji",
+        "correct": false
+      },
+      {
+        "text": "Przygotowania raportu",
+        "correct": true
+      },
+      {
+        "text": "Modelowanie zagrożeń",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 73
+  },
+  {
+    "question": "Szyfrowanie oparte o rejestr przesuwający wykorzystywane jest w trybie:?",
+    "answers": [
+      {
+        "text": "Ecb",
+        "correct": false
+      },
+      {
+        "text": "Cfb",
+        "correct": true
+      },
+      {
+        "text": "Cbc",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 74
+  },
+  {
+    "question": "Uwierzytelnienie komunikatu możemy osiągnąć poprzez?",
+    "answers": [
+      {
+        "text": "Zaszyfrowanie komunikatu naszym kluczem prywatnym",
+        "correct": true
+      },
+      {
+        "text": "Zaszyfrowanie komunikatu naszym kluczem publicznym",
+        "correct": false
+      },
+      {
+        "text": "Wyznaczenie wartości funkcji skrótu podpisywanego komunikatu",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 75
+  },
+  {
+    "question": "W szyfrze wieloalfabetowym?",
+    "answers": [
+      {
+        "text": "Takim samym znakom tekstu jawnego mogą odpowiadać różne znaki w szyfrogramie (np litera 'a'  w jednym miejscu tekstu  może zostać zakodowana jako 'x', a w innym jako 'y')",
+        "correct": true
+      },
+      {
+        "text": "Występuje wiele kolejnych permutacji tekstu jawnego",
+        "correct": false
+      },
+      {
+        "text": "Takim samym znakom tekstu jawnego zawsze odpowiadają te same znaki w szyfrogramie (np jeżeli litera 'a' jest kodowana jako 'x' to w całym dokumencie wszystkim literom 'a'  dopowiada 'x')",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 76
+  },
+  {
+    "question": "W przypadku takiej samej długości klucza?",
+    "answers": [
+      {
+        "text": "Jakość obu szyfrów symetrycznych i asymetrycznych będzie porównywalna",
+        "correct": false
+      },
+      {
+        "text": "Szyfr asymetryczny będzie z reguły \"mocniejszy\" od symetrycznego",
+        "correct": false
+      },
+      {
+        "text": "Szyfr symetryczny będzie z reguły \"mocniejszy\" od szyfru asymetrycznego",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 77
+  },
+  {
+    "question": "Które z poniższych rozwiązań zapewnia pełną anonimowość?",
+    "answers": [
+      {
+        "text": "Serwery proxy",
+        "correct": false
+      },
+      {
+        "text": "Żadne z wymienionych",
+        "correct": true
+      },
+      {
+        "text": "Tryb prywatny w przeglądarce internetowej",
+        "correct": false
+      },
+      {
+        "text": "Serwery vpn",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 78
+  },
+  {
+    "question": "Exploity to:?",
+    "answers": [
+      {
+        "text": "Urządzenia do “odzyskiwania” haseł do wifi",
+        "correct": false
+      },
+      {
+        "text": "Programy wykorzystujące luki w oprogramowaniu do np. uzyskania nieuprawnionego dostępu",
+        "correct": true
+      },
+      {
+        "text": "Narzędzia wykorzystywane do przeprowadzenia rekonesansu",
+        "correct": false
+      },
+      {
+        "text": "Aplikacje do przeprowadzania hardeningu systemów operacyjnych",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 79
+  },
+  {
+    "question": "W transmisji HTTPS do szyfrowania danych używany jest protokół:?",
+    "answers": [
+      {
+        "text": "Sntp",
+        "correct": false
+      },
+      {
+        "text": "Dmz",
+        "correct": false
+      },
+      {
+        "text": "Siem",
+        "correct": false
+      },
+      {
+        "text": "Tls",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 80
+  },
+  {
+    "question": "W przypadku systemów IDS wykrywających ataki w oparciu o anomalie (metoda behawioralna):?",
+    "answers": [
+      {
+        "text": "Mogą być wykrywane nowe typy ataków, nawet jeśli nie mamy zapisanych ich sygnatur",
+        "correct": true
+      },
+      {
+        "text": "Wykrywane są odstępstwa od profilu użytkownika/urządzenia",
+        "correct": true
+      },
+      {
+        "text": "Podstawą ich działania są bazy danych z sygnaturami ataków",
+        "correct": false
+      },
+      {
+        "text": "Wykrywane są ataki, jeśli tylko mamy zapisane ich sygnatury",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 81
+  },
+  {
+    "question": "W przypadku systemów IDS wykrywających ataki w oparciu o ich sygnatury:?",
+    "answers": [
+      {
+        "text": "Podstawą ich działania są bazy danych z sygnaturami udostępnianymi przez producenta, a przez to są one identyczne dla wszystkich użytkowników",
+        "correct": true
+      },
+      {
+        "text": "Mogą być wykrywane nowe typy ataków, jeśli tylko mamy zapisane ich sygnatury",
+        "correct": true
+      },
+      {
+        "text": "Mogą być wykrywane nowe typy ataków, nawet jeśli nie mamy zapisanych ich sygnatur",
+        "correct": false
+      },
+      {
+        "text": "Wykrywane są odstępstwa (anomalie) od profilu użytkownika/urządzenia",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 82
+  },
+  {
+    "question": "Który z poniższych określeń wskazuje na typ serwerów pocztowych umożliwiających wysyłanie SPAM-u?",
+    "answers": [
+      {
+        "text": "Whitelist",
+        "correct": false
+      },
+      {
+        "text": "Blacklist",
+        "correct": false
+      },
+      {
+        "text": "Dmz",
+        "correct": false
+      },
+      {
+        "text": "Open relay",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 83
+  },
+  {
+    "question": "W systemach HIDS liczba sensorów wynosi zwykle:?",
+    "answers": [
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": false
+      },
+      {
+        "text": "Tyle ile liczba chronionych urządzeń",
+        "correct": true
+      },
+      {
+        "text": "0",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 84
+  },
+  {
+    "question": "Słabo zabezpieczone urządzenie stanowiący przynętę na hakerów określa się mianem:?",
+    "answers": [
+      {
+        "text": "Windows xp",
+        "correct": false
+      },
+      {
+        "text": "Serwer proxy",
+        "correct": false
+      },
+      {
+        "text": "Honeypot",
+        "correct": true
+      },
+      {
+        "text": "Ips",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 85
+  },
+  {
+    "question": "Strefa DMZ to:?",
+    "answers": [
+      {
+        "text": "Strefa gwarantująca połączenia w pełni anonimowe",
+        "correct": false
+      },
+      {
+        "text": "Strefa zdemilitaryzowana",
+        "correct": true
+      },
+      {
+        "text": "Strefa chroniona przez firewall",
+        "correct": false
+      },
+      {
+        "text": "Strefa chroniona przez hids",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 86
+  },
+  {
+    "question": "Podstawowym celem ataku DoS jest:?",
+    "answers": [
+      {
+        "text": "Pozyskanie danych",
+        "correct": false
+      },
+      {
+        "text": "Przejęcie konta administratora",
+        "correct": false
+      },
+      {
+        "text": "Uszkodzenie danych",
+        "correct": false
+      },
+      {
+        "text": "Zablokowanie dostępu do usługi lub urządzenia",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 87
+  },
+  {
+    "question": "Funkcja Eulera pozwala?",
+    "answers": [
+      {
+        "text": "Wyznaczyć liczbę elementów w grupie multiplikatywnej liczb całkowitych modulo n",
+        "correct": true
+      },
+      {
+        "text": "Wyznaczyć bieżący klucz sesji",
+        "correct": false
+      },
+      {
+        "text": "Wyznaczyć współczynnik indeksowania w algorytmie rsa",
+        "correct": false
+      },
+      {
+        "text": "W sposób bezpieczny wymienić klucz sesji",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 88
+  },
+  {
+    "question": "W szyfrach homofonicznych?",
+    "answers": [
+      {
+        "text": "Usuwa się spółgłoski i w ich miejsce wstawiamy tylko samogłoski",
+        "correct": false
+      },
+      {
+        "text": "Ta sama litera pliku jawnego może być kodowana na kilka sposobów",
+        "correct": true
+      },
+      {
+        "text": "Poszczególnym znakom tekstu jawnego odpowiadają odpowiednie znaki graﬁczne",
+        "correct": false
+      },
+      {
+        "text": "Do kodowania tekstu jawnego wykorzystywany jest zapis nutowy",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 89
+  },
+  {
+    "question": "W szyfrze Vernama (szyfrze doskonałym)?",
+    "answers": [
+      {
+        "text": "Klucz  może być używany tylko raz",
+        "correct": true
+      },
+      {
+        "text": "Klucz może być wykorzystywany wielokrotnie",
+        "correct": false
+      },
+      {
+        "text": "Klucz nie może być wartością losową",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 90
+  },
+  {
+    "question": "Logując się serwerze SSH za pomocą kluczy, dla których ustawione zostało hasło, należy podać?",
+    "answers": [
+      {
+        "text": "Tylko hasło do konta",
+        "correct": false
+      },
+      {
+        "text": "Nie są wymagane żadne dane",
+        "correct": false
+      },
+      {
+        "text": "Zarówno hasło do klucza jak i do konta",
+        "correct": false
+      },
+      {
+        "text": "Tylko hasło do klucza",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 91
+  },
+  {
+    "question": "Plik \"authorized_keys\" na serwerze SSH zawiera:?",
+    "answers": [
+      {
+        "text": "Dane konfiguracyjne wykorzystywane podczas generowania kluczy",
+        "correct": false
+      },
+      {
+        "text": "Klucze publiczne użytkowników autentykowanych za pomocą kluczy",
+        "correct": true
+      },
+      {
+        "text": "Klucze prywatne użytkowników autentykowanych za pomocą kluczy",
+        "correct": false
+      },
+      {
+        "text": "Parę kluczy (publiczny oraz prywatny) serwera ssh",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 92
+  },
+  {
+    "question": "System NIDS służy do ochrony przed atakami:?",
+    "answers": [
+      {
+        "text": "Pojedynczego urządzenia",
+        "correct": false
+      },
+      {
+        "text": "Całej sieci",
+        "correct": true
+      },
+      {
+        "text": "Wybranego protokołu sieciowego",
+        "correct": false
+      },
+      {
+        "text": "Pojedynczej aplikacji",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 93
+  },
+  {
+    "question": "Mianem open-relay określa się?",
+    "answers": [
+      {
+        "text": "Narzędzia na licencji gnu/glp używane w czasie testów penetracyjnych",
+        "correct": false
+      },
+      {
+        "text": "Zgodę zleceniodawcy testów penetracyjnych na publikację ich wyników",
+        "correct": false
+      },
+      {
+        "text": "Otwarte (ogólnodostępne) serwery, na których bez zezwolenia można przeprowadzać testy penetracyjne",
+        "correct": false
+      },
+      {
+        "text": "Żadne z wymienionych",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 94
+  },
+  {
+    "question": "Autoryzacja to proces:?",
+    "answers": [
+      {
+        "text": "Uwierzytelniania użytkowników",
+        "correct": false
+      },
+      {
+        "text": "Wymiany kluczy publicznych pomiędzy systemami",
+        "correct": false
+      },
+      {
+        "text": "Weryfikacji, czy dany użytkownik ma dostęp do zasobu",
+        "correct": true
+      },
+      {
+        "text": "Sprawdzania, czy dany mail nie jest spam-em",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 95
+  },
+  {
+    "question": "Które z poniższych działań służy przeciwdziałaniu atakom DoS?",
+    "answers": [
+      {
+        "text": "Blokowanie niepotrzebnego ruchu sieciowego",
+        "correct": false
+      },
+      {
+        "text": "Blokowanie nieprawidłowego ruchu sieciowego",
+        "correct": false
+      },
+      {
+        "text": "Wszystkie wymienione",
+        "correct": true
+      },
+      {
+        "text": "Wyłączenie rozgłaszania ip",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 96
+  },
+  {
+    "question": "Które z poniższych narzędzi może być wykorzystane do wygenerowania pary kluczy (prywatny + publiczny)?",
+    "answers": [
+      {
+        "text": "Ssh-keygen",
+        "correct": true
+      },
+      {
+        "text": "Żadne z wymienionych",
+        "correct": false
+      },
+      {
+        "text": "Authorized_keys",
+        "correct": false
+      },
+      {
+        "text": "Known_hosts",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 97
+  },
+  {
+    "question": "System NNIDS służy do ochrony przed atakami:?",
+    "answers": [
+      {
+        "text": "Rutera dostępowego wi-fi",
+        "correct": false
+      },
+      {
+        "text": "Zarówno całej sieci jak i dodatkowo wybranych urządzeń",
+        "correct": true
+      },
+      {
+        "text": "Tylko pojedynczego urządzenia",
+        "correct": false
+      },
+      {
+        "text": "Tylko całej sieci",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 98
+  },
+  {
+    "question": "W systemach NIDS liczba sensorów wynosi zwykle:?",
+    "answers": [
+      {
+        "text": "0",
+        "correct": false
+      },
+      {
+        "text": "1",
+        "correct": true
+      },
+      {
+        "text": "Tyle ile liczba chronionych urządzeń",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 99
+  },
+  {
+    "question": "Atak XSS jest przeprowadzany na:?",
+    "answers": [
+      {
+        "text": "Strony www",
+        "correct": true
+      },
+      {
+        "text": "Serwery pocztowe",
+        "correct": false
+      },
+      {
+        "text": "Systemy ids",
+        "correct": false
+      },
+      {
+        "text": "Systemy operacyjne",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 100
+  },
+  {
+    "question": "Które z poniższych poleceń służy do generowania certyfikatów?",
+    "answers": [
+      {
+        "text": "Ssh",
+        "correct": false
+      },
+      {
+        "text": "X509",
+        "correct": false
+      },
+      {
+        "text": "Openssl",
+        "correct": true
+      },
+      {
+        "text": "Authorization_key",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 101
+  },
+  {
+    "question": "Które z poniższych narzędzi może być wykorzystanie do generowania pakietu z nieprawidłowymi danymi:?",
+    "answers": [
+      {
+        "text": "Open relay",
+        "correct": false
+      },
+      {
+        "text": "Scapy",
+        "correct": true
+      },
+      {
+        "text": "Shodan",
+        "correct": false
+      },
+      {
+        "text": "Hashcat",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 102
+  },
+  {
+    "question": "Restart systemu operacyjnego może być skutkiem ataku:?",
+    "answers": [
+      {
+        "text": "Dos",
+        "correct": true
+      },
+      {
+        "text": "Clickjacking",
+        "correct": false
+      },
+      {
+        "text": "Brute force",
+        "correct": false
+      },
+      {
+        "text": "Phishing",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 103
+  },
+  {
+    "question": "Zakładając, że cały ruch sieciowy przechodzi przez państwa Unii Europejskiej, anonimowości nie zapewni nam:?",
+    "answers": [
+      {
+        "text": "Vpn",
+        "correct": true
+      },
+      {
+        "text": "Serwer proxy",
+        "correct": true
+      },
+      {
+        "text": "Publiczny adres ip",
+        "correct": true
+      },
+      {
+        "text": "Tryb incognito w przeglądarce",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 104
+  },
+  {
+    "question": "Segment sieci wyłączony spod ochrony to:?",
+    "answers": [
+      {
+        "text": "Hids",
+        "correct": false
+      },
+      {
+        "text": "Owasp",
+        "correct": false
+      },
+      {
+        "text": "Open relay",
+        "correct": false
+      },
+      {
+        "text": "Strefa zdemilitaryzowana",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 105
+  },
+  {
+    "question": "Które z poniższych są otwartoźródłowymi systemami IDS:?",
+    "answers": [
+      {
+        "text": "Snort",
+        "correct": true
+      },
+      {
+        "text": "Suricata",
+        "correct": true
+      },
+      {
+        "text": "Nmap",
+        "correct": false
+      },
+      {
+        "text": "Metasploit",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 106
+  },
+  {
+    "question": "Które z poniższych określeń opisują metodę brute force?",
+    "answers": [
+      {
+        "text": "Wymaga zwykle dużej ilości czasu i zasobów sprzętowych",
+        "correct": true
+      },
+      {
+        "text": "Jest jedną  z najefektywniejszych metod przy atakach na serwery www i ssh",
+        "correct": false
+      },
+      {
+        "text": "Jest w 100% skuteczna",
+        "correct": true
+      },
+      {
+        "text": "Może być stosowana jedynie do haseł składających się z małych i wielkich liter",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 107
+  },
+  {
+    "question": "Użycie mechanizmu captch-y może pomóc uniknąć przede wszystkim ataku DDoS typu:?",
+    "answers": [
+      {
+        "text": "Pulsacyjnego",
+        "correct": false
+      },
+      {
+        "text": "Aplikacyjnego",
+        "correct": true
+      },
+      {
+        "text": "Wolumetrycznego",
+        "correct": false
+      },
+      {
+        "text": "Wzmocnionego",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 108
+  },
+  {
+    "question": "Które z poniższych działań może zmniejszyć ryzyko ataków DoS/DDoS?",
+    "answers": [
+      {
+        "text": "Przeprowadzenie hardeningu serwerów aplikacji oraz usług",
+        "correct": true
+      },
+      {
+        "text": "Blokowanie nieprawidłowego ruchu sieciowego",
+        "correct": true
+      },
+      {
+        "text": "Blokowanie niepotrzebnego ruchu sieciowego",
+        "correct": true
+      },
+      {
+        "text": "Wyłączenie rozgłaszania ip",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 109
+  },
+  {
+    "question": "Które z poniższych poleceń służy do tworzenia tuneli SSH?",
+    "answers": [
+      {
+        "text": "Sslstrip",
+        "correct": false
+      },
+      {
+        "text": "Openssl",
+        "correct": false
+      },
+      {
+        "text": "Ssh_tunnel",
+        "correct": false
+      },
+      {
+        "text": "Ssh",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 110
+  },
+  {
+    "question": "Które z narzędzi może być użyte do ukrycia fizycznego adresu IP?",
+    "answers": [
+      {
+        "text": "Vpn",
+        "correct": true
+      },
+      {
+        "text": "Nat",
+        "correct": true
+      },
+      {
+        "text": "Tor",
+        "correct": true
+      },
+      {
+        "text": "Selinux",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 111
+  },
+  {
+    "question": "Wyłączenie na ruterach rozgłaszania adresów IP (broadcast)  może pomóc uniknąć przede wszystkim ataku DDoS typu:?",
+    "answers": [
+      {
+        "text": "Rozproszongo",
+        "correct": false
+      },
+      {
+        "text": "Aplikacyjnego",
+        "correct": false
+      },
+      {
+        "text": "Wzmocnionego",
+        "correct": true
+      },
+      {
+        "text": "Pulsacyjnego",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 112
+  },
+  {
+    "question": "Podczas próby łączenia się z serwerem SSH pojawił się błąd: REMOTE HOST IDENTIFICATION HAS CHANGED! Przyczyną może być:?",
+    "answers": [
+      {
+        "text": "Niezgodność klucza publicznego serwera zapisanego w pliku \"known_hosts\" klienta z tym przedstawianym przez serwer",
+        "correct": true
+      },
+      {
+        "text": "Niezgodność klucza prywatnego serwera zapisanego w pliku \"known_hosts\" klienta z tym przedstawianym przez serwer",
+        "correct": false
+      },
+      {
+        "text": "Próba połączenia na użytkownika, który nie jest utworzony na serwerze",
+        "correct": false
+      },
+      {
+        "text": "Niepoprawnie ustawiony adres serwera dns",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 113
+  }
+]

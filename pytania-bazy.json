@@ -1,0 +1,627 @@
+[
+  {
+    "question": "Który widok systemowy najlepiej sprawdzi informacje o aktualnie zalogowanych użytkownikach?",
+    "answers": [
+      {
+        "text": "DBA_USERS",
+        "correct": false
+      },
+      {
+        "text": "USER_SESSIONS",
+        "correct": false
+      },
+      {
+        "text": "V$SESSION",
+        "correct": true
+      },
+      {
+        "text": "ALL_USERS",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 1
+  },
+  {
+    "question": "Który widok pokazuje uprawnienia systemowe użytkownika?",
+    "answers": [
+      {
+        "text": "USER_SYS_PRIVS",
+        "correct": true
+      },
+      {
+        "text": "USER_PRIVILEGES",
+        "correct": false
+      },
+      {
+        "text": "V$USER_PRIVS",
+        "correct": false
+      },
+      {
+        "text": "ALL_SYSTEM_GRANTS",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 2
+  },
+  {
+    "question": "Co to jest rola DBA w Oracle?",
+    "answers": [
+      {
+        "text": "Pojedyncze uprawnienie do administracji",
+        "correct": false
+      },
+      {
+        "text": "Predefiniowana rola zawierająca zestaw uprawnień administratorskich",
+        "correct": true
+      },
+      {
+        "text": "Typ konta użytkownika",
+        "correct": false
+      },
+      {
+        "text": "Nazwa przestrzeni tabel",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 3
+  },
+  {
+    "question": "Co zrobi poniższe polecenie?\nREVOKE SELECT, INSERT ON emp FROM bbd1;",
+    "answers": [
+      {
+        "text": "Przyzna uprawnienia do SELECT, INSERT dla roli bbd1 na tabeli emp.",
+        "correct": false
+      },
+      {
+        "text": "Odbierze uprawnienia do SELECT, INSERT dla roli bbd1 w całej bazie danych.",
+        "correct": false
+      },
+      {
+        "text": "Obierze uprawnienia do SELECT, INSERT dla roli bbd1 na tabeli emp.",
+        "correct": true
+      },
+      {
+        "text": "Przyzna uprawnienia do SELECT, INSERT dla roli emp na tabeli bbd1.",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 4
+  },
+  {
+    "question": "Jaki jest główny cel tworzenia przestrzeni tabel?",
+    "answers": [
+      {
+        "text": "Logiczne rozdzielanie danych w celu poprawy bezpieczeństwa oraz zarządzania pamięcią.",
+        "correct": true
+      },
+      {
+        "text": "Zwiększenie rozmiaru bazy danych.",
+        "correct": false
+      },
+      {
+        "text": "Dodatkowe szyfrowanie danych w tabelach.",
+        "correct": false
+      },
+      {
+        "text": "Automatyczne tworzenie kopii zapasowych bazy danych.",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 5
+  },
+  {
+    "question": "Jaką rolę odgrywają profile w zarządzaniu użytkownikami w Oracle?",
+    "answers": [
+      {
+        "text": "Określają do jakich tabel użytkownik ma dostęp.",
+        "correct": false
+      },
+      {
+        "text": "Kontrolują limity zasobów i ustawienia haseł, np. czas ważności hasła.",
+        "correct": true
+      },
+      {
+        "text": "Nadają użytkownikowi uprawnienia do tworzenia tabel.",
+        "correct": true
+      },
+      {
+        "text": "Określają do jakich kolumn w tabeli użytkownik ma dostęp.",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 6
+  },
+  {
+    "question": "Co to są role w Oracle?",
+    "answers": [
+      {
+        "text": "Profile określające limity zasobów dla tabel.",
+        "correct": false
+      },
+      {
+        "text": "Profile określające politykę zmiany haseł.",
+        "correct": false
+      },
+      {
+        "text": "Grupy uprawnień, które ułatwiają zarządzanie dostępem dla wielu użytkowników.",
+        "correct": true
+      },
+      {
+        "text": "Alternatywne nazwy dla tabel, podobne do synonimów.",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 7
+  },
+  {
+    "question": "Co to jest TDE (Transparent Data Encryption)?",
+    "answers": [
+      {
+        "text": "Metoda kompresji danych w celu oszczędzania miejsca.",
+        "correct": false
+      },
+      {
+        "text": "Metoda optymalizacji zapytań SQL.",
+        "correct": false
+      },
+      {
+        "text": "Mechanizm tworzenia kopii zapasowych bazy danych.",
+        "correct": false
+      },
+      {
+        "text": "Technika szyfrowania danych, która chroni je przed nieautoryzowanym dostępem.",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 8
+  },
+  {
+    "question": "Jak widoki (perspektywy) wspierają bezpieczeństwo baz danych?",
+    "answers": [
+      {
+        "text": "Automatycznie szyfrują dane w tabelach bazowych.",
+        "correct": false
+      },
+      {
+        "text": "Ograniczają dostęp do wybranych danych lub kolumn, chroniąc przed nieautoryzowanym dostępem.",
+        "correct": true
+      },
+      {
+        "text": "Zastępują tabele, usuwając stare dane.",
+        "correct": false
+      },
+      {
+        "text": "Blokują całkowicie możliwość modyfikowania tabel.",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 9
+  },
+  {
+    "question": "Czym jest \"wrappowanie\" kodu PL/SQL w Oracle?",
+    "answers": [
+      {
+        "text": "Proces formatowania kodu w celu jego czytelności",
+        "correct": false
+      },
+      {
+        "text": "Proces ukrywania kodu źródłowego przed użytkownikami",
+        "correct": true
+      },
+      {
+        "text": "Proces wykonywania kodu w środowisku testowym",
+        "correct": false
+      },
+      {
+        "text": "Proces konwersji kodu na język Java",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 10
+  },
+  {
+    "question": "Które z poniższych NIE jest przykładem przywileju systemowego?",
+    "answers": [
+      {
+        "text": "Możliwość utworzenia nowego użytkownika.",
+        "correct": false
+      },
+      {
+        "text": "Możliwość zalogowania się do bazy danych.",
+        "correct": false
+      },
+      {
+        "text": "Możliwość nadania użytkownikowi dostępu do konkretnej tabeli.",
+        "correct": true
+      },
+      {
+        "text": "Możliwość tworzenia tabel w schemacie użytkownika.",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 11
+  },
+  {
+    "question": "Którą z informacji możemy znaleźć w tabeli słownikowej opisującej konta użytkowników?",
+    "answers": [
+      {
+        "text": "Liczba logowań użytkownika w ostatnim miesiącu",
+        "correct": false
+      },
+      {
+        "text": "Historia zmian hasła dla konta",
+        "correct": false
+      },
+      {
+        "text": "Informacja, czy konto jest zewnętrzne czy wewnętrzne",
+        "correct": true
+      },
+      {
+        "text": "Lista uprawnień do tabel w bazie danych",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 12
+  },
+  {
+    "question": "W kontekście tworzenia ról i przydzielania uprawnień: co robi instrukcja sql\nGRANT SELECT, INSERT ON hr.employees TO rola_pracownik;",
+    "answers": [
+      {
+        "text": "Przyznaje tabeli „employees\" uprawnienia SELECT i INSERT dla roli o nazwie „rola_pracownik\".",
+        "correct": false
+      },
+      {
+        "text": "Przyznaje użytkownikowi „rola_pracownik\" uprawnienia SELECT i INSERT na tabeli „hr.employees\".",
+        "correct": true
+      },
+      {
+        "text": "Tworzy nową rolę „rola_pracownik\" z uprawnieniami SELECT i INSERT do schematu „hr.employees\".",
+        "correct": false
+      },
+      {
+        "text": "Odbiera użytkownikowi „rola_pracownik\" uprawnienia SELECT i INSERT do tabeli „hr.employees\".",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 13
+  },
+  {
+    "question": "Która z poniższych technik pozwala na wymuszanie polityki bezpieczeństwa na poziomie pojedynczego wiersza w Oracle?",
+    "answers": [
+      {
+        "text": "Profile",
+        "correct": false
+      },
+      {
+        "text": "Audyt (AUDIT)",
+        "correct": false
+      },
+      {
+        "text": "Virtual Private Database (VPD) / Fine-Grained Access Control (FGAC)",
+        "correct": true
+      },
+      {
+        "text": "Synonimy (SYNONYMS)",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 14
+  },
+  {
+    "question": "Co osiąga poniższy widok?\nCREATE VIEW widok_zamowien_klientow AS\nSELECT k.imie, k.nazwisko, z.data_zamowienia, z.kwota\nFROM klienci k\nJOIN zamowienia z ON k.klient_id = z.klient_id\nWHERE z.status = 'zatwierdzone' AND k.region = 'Europa';",
+    "answers": [
+      {
+        "text": "Umożliwia użytkownikom dostęp tylko do informacji o zatwierdzonych zamówieniach klientów z regionu Europa, ukrywając dane innych klientów i niezatwierdzone zamówienia",
+        "correct": true
+      },
+      {
+        "text": "Pozwala na edycję danych klientów i zamówień niezależnie od regionu i statusu",
+        "correct": false
+      },
+      {
+        "text": "Automatycznie szyfruje dane klientów z regionu Europa",
+        "correct": false
+      },
+      {
+        "text": "Tworzy kopię wszystkich zamówień i klientów bez żadnych ograniczeń dostępu",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 15
+  },
+  {
+    "question": "Jak Oracle chroni klucze szyfrujące w przypadku Transparent Data Encryption (TDE)?",
+    "answers": [
+      {
+        "text": "Klucz szyfrujący jest przechowywany wewnątrz bazy jako zwykły ciąg znaków",
+        "correct": false
+      },
+      {
+        "text": "Klucz szyfrujący jest zawsze wymagany w każdej sesji użytkownika",
+        "correct": false
+      },
+      {
+        "text": "Klucz szyfrujący jest przechowywany w zewnętrznym keystore (np. Oracle Wallet)",
+        "correct": true
+      },
+      {
+        "text": "Klucz szyfrujący jest obliczany dynamicznie przy każdym SELECT",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 16
+  },
+  {
+    "question": "Które z poniższych NIE jest skutkiem nadania użytkownikowi roli DBA?",
+    "answers": [
+      {
+        "text": "Uzyskanie dostępu do tabel systemowych",
+        "correct": false
+      },
+      {
+        "text": "Możliwość nadawania dowolnych uprawnień innym użytkownikom",
+        "correct": false
+      },
+      {
+        "text": "Możliwość szyfrowania danych w tabelach innych użytkowników bez ich wiedzy",
+        "correct": true
+      },
+      {
+        "text": "Możliwość tworzenia i usuwania użytkowników",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 17
+  },
+  {
+    "question": "Jak można ograniczyć czas trwania sesji użytkownika w Oracle?",
+    "answers": [
+      {
+        "text": "Poprzez rolę",
+        "correct": false
+      },
+      {
+        "text": "Poprzez trigger",
+        "correct": false
+      },
+      {
+        "text": "Poprzez profil użytkownika",
+        "correct": true
+      },
+      {
+        "text": "Poprzez widok",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 18
+  },
+  {
+    "question": "Co się stanie, gdy użytkownik otrzyma uprawnienie do tabeli z WITH ADMIN OPTION?",
+    "answers": [
+      {
+        "text": "Użytkownik może korzystać z przywileju, ale nie może go nikomu dalej przekazać",
+        "correct": false
+      },
+      {
+        "text": "Użytkownik może odebrać to uprawnienie od innych",
+        "correct": false
+      },
+      {
+        "text": "Użytkownik może przyznać to uprawnienie innym użytkownikom, a także je im odbierać",
+        "correct": false
+      },
+      {
+        "text": "Użytkownik może korzystać z uprawnienia i przekazać je innym, ale nie może go odebrać",
+        "correct": true
+      }
+    ],
+    "type": "multiple",
+    "id": 19
+  },
+  {
+    "question": "Jak Oracle przechowuje dane szyfrowane przez TDE na poziomie kolumny?",
+    "answers": [
+      {
+        "text": "W całości w osobnym zaszyfrowanym pliku",
+        "correct": false
+      },
+      {
+        "text": "W zaszyfrowanej formie, ale możliwe do odczytu przez użytkownika z uprawnieniem SELECT",
+        "correct": true
+      },
+      {
+        "text": "W formie maskowanej i nieodwracalnej (jak hash)",
+        "correct": false
+      },
+      {
+        "text": "W pamięci RAM i tylko tymczasowo na dysku",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 20
+  },
+  {
+    "question": "Masz użytkownika BBD1, któremu chcesz pozwolić na tworzenie tabel, ale tylko we własnym schemacie. Które uprawnienie mu nadasz?",
+    "answers": [
+      {
+        "text": "GRANT CREATE ANY TABLE TO BBD1;",
+        "correct": false
+      },
+      {
+        "text": "GRANT CREATE TABLE TO BBD1;",
+        "correct": true
+      },
+      {
+        "text": "GRANT ALTER ANY TABLE TO BBD1;",
+        "correct": false
+      },
+      {
+        "text": "GRANT CREATE USER TO BBD1;",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 21
+  },
+  {
+    "question": "Chcesz stworzyć widok, który pokazuje tylko aktywne konta klientów i dodatkowo uniemożliwia wstawienie danych, które nie spełniają tego warunku. Jakiej opcji musisz użyć?",
+    "answers": [
+      {
+        "text": "WITH CHECK OPTION",
+        "correct": true
+      },
+      {
+        "text": "WITH READ ONLY",
+        "correct": false
+      },
+      {
+        "text": "CREATE VIEW AS READ ONLY",
+        "correct": false
+      },
+      {
+        "text": "WITH RESTRICTED UPDATE",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 22
+  },
+  {
+    "question": "Która z poniższych deklaracji roli sprawi, że użytkownik będzie mógł aktywować rolę tylko wtedy, gdy zaloguje się przy użyciu systemu zewnętrznego?",
+    "answers": [
+      {
+        "text": "CREATE ROLE rola IDENTIFIED BY haslo;",
+        "correct": false
+      },
+      {
+        "text": "CREATE ROLE rola IDENTIFIED EXTERNALLY;",
+        "correct": true
+      },
+      {
+        "text": "CREATE ROLE rola USING DBMS_SESSION;",
+        "correct": false
+      },
+      {
+        "text": "CREATE ROLE rola IDENTIFIED GLOBALLY;",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 23
+  },
+  {
+    "question": "Które z poniższych stwierdzeń dotyczących synonimów w Oracle Database są prawdziwe?",
+    "answers": [
+      {
+        "text": "Synonimy mogą być tworzone zarówno jako publiczne, jak i prywatne.",
+        "correct": true
+      },
+      {
+        "text": "Synonimy pozwalają na aliasowanie obiektów w innych bazach danych bez użycia dblinków.",
+        "correct": false
+      },
+      {
+        "text": "Synonimy mogą być tworzone dla tabel, widoków, procedur, pakietów i sekwencji.",
+        "correct": true
+      },
+      {
+        "text": "Publiczny synonim zawsze nadpisuje prywatny, jeśli istnieją jednocześnie.",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 24
+  },
+  {
+    "question": "Które z poniższych stwierdzeń dotyczących synonimów w Oracle Database są prawdziwe?",
+    "answers": [
+      {
+        "text": "Synonimy mogą być tworzone zarówno jako publiczne, jak i prywatne.",
+        "correct": true
+      },
+      {
+        "text": "Synonimy pozwalają na aliasowanie obiektów w innych bazach danych bez użycia dblinków.",
+        "correct": false
+      },
+      {
+        "text": "Synonimy mogą być tworzone dla tabel, widoków, procedur, pakietów i sekwencji.",
+        "correct": true
+      },
+      {
+        "text": "Publiczny synonim zawsze nadpisuje prywatny, jeśli istnieją jednocześnie.",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 25
+  },
+  {
+    "question": "Które z poniższych stwierdzeń najlepiej opisuje mechanizm Transparent Data Encryption (TDE) w bazach danych?",
+    "answers": [
+      {
+        "text": "TDE wykorzystuje klucze asymetryczne do szyfrowania danych w locie (w trakcie przesyłania pomiędzy klientem a serwerem).",
+        "correct": false
+      },
+      {
+        "text": "TDE szyfruje dane wyłącznie na poziomie kolumn w tabelach, przez co wymaga modyfikacji wszystkich zapytań SQL.",
+        "correct": false
+      },
+      {
+        "text": "TDE szyfruje dane „w spoczynku\" (at rest) za pomocą kluczy symetrycznych, nie zmieniając kodu aplikacji korzystającej z bazy.",
+        "correct": true
+      },
+      {
+        "text": "TDE automatycznie rejestruje każde odszyfrowanie danych w dziennikach audytu bazy, nawet dla wewnętrznych odczytów systemowych.",
+        "correct": false
+      },
+      {
+        "text": "TDE wymaga, aby każda sesja klienta definiowała własny zestaw kluczy szyfrujących przed każdym zapytaniem.",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 26
+  },
+  {
+    "question": "Które z poniższych stwierdzeń o usuwaniu synonimów są prawdziwe?",
+    "answers": [
+      {
+        "text": "Użycie DROP PUBLIC SYNONYM wymaga uprawnień DBA lub CREATE PUBLIC SYNONYM.",
+        "correct": true
+      },
+      {
+        "text": "Usunięcie synonimu automatycznie usuwa również obiekt, do którego się odnosił.",
+        "correct": false
+      },
+      {
+        "text": "Użycie DROP SYNONYM usuwa tylko prywatny synonim, chyba że jawnie użyto słowa kluczowego PUBLIC.",
+        "correct": true
+      },
+      {
+        "text": "Nie można usunąć synonimu, jeśli jest używany przez aktywne zapytanie w sesji użytkownika.",
+        "correct": false
+      }
+    ],
+    "type": "multiple",
+    "id": 27
+  }
+]
