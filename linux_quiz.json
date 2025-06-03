@@ -835,11 +835,11 @@
       },
       {
         "text": "chmod ug-w student test.txt",
-        "correct": false
+        "correct": true
       },
       {
         "text": "chmod au-wx test.txt",
-        "correct": true
+        "correct": false
       },
       {
         "text": "chmod 666 test.txt",
@@ -2041,17 +2041,6 @@
     "id": 91
   },
   {
-    "question": "kern.debug             @@tester",
-    "answers": [
-      {
-        "text": "7",
-        "correct": true
-      }
-    ],
-    "type": "open",
-    "id": 92
-  },
-  {
     "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog(kern.debug             @@tester) dane spełniające powyższy warunek będą:",
     "answers": [
       {
@@ -2075,7 +2064,7 @@
     "id": 93
   },
   {
-    "question": "W katalogu. Który z poniższych użytkowników (lub grup użytkowników) będzie mógł skasować ten plik?",
+    "question": "W katalogu:drwxrwxrwt 28 root root 12288 lut 18 22:36 /opt/ użytkownik john utworzył plik -rw-r--r-- 28 john john 12288 lut 18 22:36 test.txt Który z poniższych użytkowników (lub grup użytkowników) będzie mógł skasować ten plik?",
     "answers": [
       {
         "text": "wszyscy standardowi",
@@ -2349,17 +2338,6 @@
     ],
     "type": "multiple",
     "id": 105
-  },
-  {
-    "question": "lrwxrwxrwx 1 student student 6 lut 20 00",
-    "answers": [
-      {
-        "text": "55 data.txt",
-        "correct": true
-      }
-    ],
-    "type": "open",
-    "id": 106
   },
   {
     "question": "Poniższy zasób (lrwxrwxrwx 1 student student 6 lut 20 00) został utworzony jako link symboliczny do pliku database.txt. Które z poniższych poleceń usunie ten link?",
@@ -2707,7 +2685,7 @@
     "id": 121
   },
   {
-    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog:",
+    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog: (kern.debug @(z9)[2001:db8::1])dane spełniające powyższy warunek będą:",
     "answers": [
       {
         "text": "przesyłane za pomocą protokołu UDP",
@@ -2775,28 +2753,7 @@
     "type": "multiple",
     "id": 124
   },
-  {
-    "question": "",
-    "answers": [
-      {
-        "text": "rw-rw-r-- 2 student student 6 lut 20 00:55 data1.txt",
-        "correct": true
-      }
-    ],
-    "type": "open",
-    "id": 125
-  },
-  {
-    "question": "",
-    "answers": [
-      {
-        "text": "rw-rw-r-- 2 student student 6 lut 20 00:55 data.2txt",
-        "correct": true
-      }
-    ],
-    "type": "open",
-    "id": 126
-  },
+
   {
     "question": "W systemie istnieją 2 poniższe zasoby, która są  powiązane ze sobą za pomocą linku twardego.(rw-rw-r-- 2 student student 6 lut 20 00:55 data1.txt , rw-rw-r-- 2 student student 6 lut 20 00:55 data.2txt)  Aby fizycznie skasować ten zasób, użytkownik powinien wykonać polecenie:",
     "answers": [
@@ -3935,7 +3892,7 @@
     "id": 177
   },
   {
-    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog:",
+    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog:(kern.err             * )dane spełniające powyższy warunek będą:",
     "answers": [
       {
         "text": "odrzucane i nigdzie nie zapisywane",
@@ -4073,7 +4030,7 @@
     "id": 183
   },
   {
-    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog:",
+    "question": "Zakładając, że mamy następujący w wpis w usłudze rsyslog:(cron.warn             @@tester) dane spełniające powyższy warunek będą:",
     "answers": [
       {
         "text": "przekierowane na urządzenie o nazwie tester z wykorzystaniem protokołu TCP",
@@ -4211,7 +4168,7 @@
     "id": 189
   },
   {
-    "question": "Mamy w systemie dwa fizyczne dyski twarde /dev/hda oraz /dev/hdb. Pierwszy z dysków ma partycje w punktach montowania /boot, /usr/bin oraz /tmp/dev1. Drugi z nich ma partycje w punktach montowania: /etc, oraz /tmp/dev2. Załóżmy, że plik z tłem do GRUB-a, znajduje się w lokalizacji: /tmp/dev1/path/grub_bg.jpg. Podaj ścieżkę do tego pliku używając konwencji zgodnej z GRUB.",
+    "question": "Mamy w systemie dwa fizyczne dyski twarde /dev/hda oraz /dev/hdb. Pierwszy z dysków ma partycje w punktach montowania: /boot, /usr/bin oraz /tmp/dev1. Drugi z nich ma partycje w punktach montowania: /etc, oraz /tmp/dev2. Załóżmy, że plik z tłem do GRUB-a, znajduje się w lokalizacji: /etc/path/grub_bg.jpg. Podaj ścieżkę do tego pliku używając konwencji zgodnej z GRUB.",
     "answers": [
       {
         "text": "(hd1,0)/path/grub_bg.jpg",
@@ -4337,7 +4294,7 @@
     "id": 195
   },
   {
-    "question": "-rwxr-sr-x 1 student share 68208 lip 15  2021 /tmp/project",
+    "question": "W katalogu: -rwxr-sr-x 1 student share 68208 lip 15  2021 /tmp/project użytkownik john (należący do m.in. do grup john oraz share) utworzył podkatalog git. Kto będzie właścicielem i do jakiej grupy będzie należał ten zasób?",
     "answers": [
       {
         "text": "student:share",
@@ -4739,11 +4696,11 @@
     "id": 213
   },
   {
-    "question": "Podaj kolejność faz uruchamiania systemu Linux. po przecinku",
+    "question": "Podaj kolejność faz uruchamiania systemu Linux. po przecinku, bez spacji i z małych liter.",
     "answers": [
       {
-        "text": "BIOS/UEFI, Bootloader, Kernel, init/systemd",
-        "correct": false
+        "text": "bios/uefi,bootloader,kernel,init/systemd",
+        "correct": true
       }
     ],
     "type": "open",
@@ -5455,7 +5412,7 @@
     "answers": [
       {
         "text": "systemctl start lpic",
-        "correct": false
+        "correct": true
       }
     ],
     "type": "open",
@@ -5554,7 +5511,7 @@
     "id": 250
   },
   {
-    "question": "-rwsrwxr-x 1 student share 68208 lip 15  2021 /tmp/project",
+    "question": "W katalogu: -rwsrwxr-x 1 student share 68208 lip 15  2021 /tmp/project użytkownik john (należący do m.in. do grup john oraz share) utworzył podkatalog git. Kto będzie właścicielem i do jakiej grupy będzie należał ten zasób?",
     "answers": [
       {
         "text": "student:share",
@@ -5645,17 +5602,7 @@
     "type": "multiple",
     "id": 254
   },
-  {
-    "question": "",
-    "answers": [
-      {
-        "text": "rw-rw-r-- 6 student student 6 lut 20 00:55 data.txt",
-        "correct": true
-      }
-    ],
-    "type": "open",
-    "id": 255
-  },
+
   {
     "question": "Użytkownik skasował następujący plik za pomocą polecenia rm data.txt (rw-rw-r-- 6 student student 6 lut 20 00:55 data.txt)  W wyniku tej operacji:",
     "answers": [
@@ -6028,7 +5975,7 @@
     "answers": [
       {
         "text": "/etc/rc3.d/S99lpic",
-        "correct": false
+        "correct": true
       }
     ],
     "type": "open",
@@ -6177,7 +6124,7 @@
     "answers": [
       {
         "text": "drwxr-----",
-        "correct": false
+        "correct": true
       }
     ],
     "type": "open",
@@ -6210,7 +6157,7 @@
     "question": "Mamy w systemie dwa fizyczne dyski twarde /dev/hda oraz /dev/hdb. Pierwszy z dysków ma partycje w punktach montowania /boot, /usr/bin oraz /tmp/dev1. Drugi z nich ma partycje w punktach montowania: /etc, oraz /tmp/dev2. Załóżmy, że plik z tłem do GRUB-a, znajduje się w lokalizacji: /boot/grub_bg.jpg. Podaj ścieżkę do tego pliku używając konwencji zgodnej z GRUB.",
     "answers": [
       {
-        "text": "(hd0,2)/path/grub_bg.jpg",
+        "text": "(hd0,0)/path/grub_bg.jpg",
         "correct": true
       }
     ],
