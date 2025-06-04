@@ -127,7 +127,7 @@
       },
       {
         "text": "Nadają użytkownikowi uprawnienia do tworzenia tabel.",
-        "correct": true
+        "correct": false
       },
       {
         "text": "Określają do jakich kolumn w tabeli użytkownik ma dostęp.",
@@ -552,29 +552,6 @@
     "id": 24
   },
   {
-    "question": "Które z poniższych stwierdzeń dotyczących synonimów w Oracle Database są prawdziwe?",
-    "answers": [
-      {
-        "text": "Synonimy mogą być tworzone zarówno jako publiczne, jak i prywatne.",
-        "correct": true
-      },
-      {
-        "text": "Synonimy pozwalają na aliasowanie obiektów w innych bazach danych bez użycia dblinków.",
-        "correct": false
-      },
-      {
-        "text": "Synonimy mogą być tworzone dla tabel, widoków, procedur, pakietów i sekwencji.",
-        "correct": true
-      },
-      {
-        "text": "Publiczny synonim zawsze nadpisuje prywatny, jeśli istnieją jednocześnie.",
-        "correct": false
-      }
-    ],
-    "type": "multiple",
-    "id": 25
-  },
-  {
     "question": "Które z poniższych stwierdzeń najlepiej opisuje mechanizm Transparent Data Encryption (TDE) w bazach danych?",
     "answers": [
       {
@@ -599,7 +576,7 @@
       }
     ],
     "type": "multiple",
-    "id": 26
+    "id": 25
   },
   {
     "question": "Które z poniższych stwierdzeń o usuwaniu synonimów są prawdziwe?",
@@ -622,6 +599,6 @@
       }
     ],
     "type": "multiple",
-    "id": 27
+    "id": 26
   }
 ]
