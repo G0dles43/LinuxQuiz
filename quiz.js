@@ -6,7 +6,7 @@ let questions = [],
 let startTime, timerInterval;
 
 async function loadQuestions() {
-  const response = await fetch("pytania-bazy.json");
+  const response = await fetch("pytania_bsk.json");
   questions = await response.json();
   updateRangeLabels();
 }
